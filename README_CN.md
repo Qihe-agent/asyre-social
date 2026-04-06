@@ -48,11 +48,36 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 
 每种风格可与 8 种布局（稀疏、平衡、密集、列表、对比、流程、脑图、象限）自由组合，另有 23+ 场景预设。
 
+### 预设示例
+
+预设 = 风格 + 布局一键组合。同一主题的三种预设效果：
+
+| | |
+|---|---|
+| ![knowledge-card](assets/presets/preset-knowledge-card.png) | ![tutorial](assets/presets/preset-tutorial.png) |
+| **knowledge-card** — notion + dense（知识卡） | **tutorial** — chalkboard + flow（教程） |
+
+![poster](assets/presets/preset-poster.png)
+
+*poster — screen-print + sparse（海报）*
+
 ---
 
 ## 精排版引擎（Mode B）
 
-6 种渲染模具，像素级精准的文字输出：
+像素级精准的文字渲染 — Markdown 经 HTML/CSS + Playwright 输出为 1080×1440 PNG 卡片。没有 AI 文字扭曲，每个字都清晰锐利。
+
+**示例：「AI 改变商业」文章，tuisheng 品牌多卡渲染：**
+
+| | |
+|---|---|
+| ![page1](assets/mode-b/tuisheng-01.png) | ![page2](assets/mode-b/tuisheng-02.png) |
+
+![page3](assets/mode-b/tuisheng-03.png)
+
+*3 页卡片系列，自动色调感知（strategic → 金色）、首字下沉、金句高亮、电路金纹理背景。*
+
+### 6 种渲染模具
 
 | 模具 | 输出 | 适用场景 |
 |------|------|---------|
@@ -64,6 +89,19 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 | 白板 (`-w`) | 1080×自适应高度 | 结构化框图 |
 
 特性：自动色调感知、金句高亮、首字下沉、溢出保护、品牌 CSS 注入。
+
+---
+
+## 混合模式（Mode C）
+
+AI 生成封面（视觉冲击）+ 精排版内容页（文字清晰）。两种引擎的最佳组合。
+
+| | |
+|---|---|
+| ![cover](assets/mode-c/mode-c-cover.png) | ![content](assets/mode-c/content-01.png) |
+| **第 1 页：AI 封面**（Gemini Pro） | **第 2 页：精排版内容**（Playwright） |
+
+*封面用金色锤子的概念艺术隐喻。内容页使用相同的 tuisheng 品牌色彩，确保 AI 与 HTML 渲染的视觉一致性。*
 
 ---
 

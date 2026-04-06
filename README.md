@@ -48,11 +48,36 @@ The AI automatically selects the best mode based on your content — or you can 
 
 Each style combines with 8 layouts (sparse, balanced, dense, list, comparison, flow, mindmap, quadrant) and 23+ presets for quick setup.
 
+### Preset Examples
+
+Presets = style + layout in one flag. Three popular presets on the same topic:
+
+| | |
+|---|---|
+| ![knowledge-card](assets/presets/preset-knowledge-card.png) | ![tutorial](assets/presets/preset-tutorial.png) |
+| **knowledge-card** — notion + dense | **tutorial** — chalkboard + flow |
+
+![poster](assets/presets/preset-poster.png)
+
+*poster — screen-print + sparse*
+
 ---
 
 ## Precision Layout Engine (Mode B)
 
-6 rendering molds for pixel-perfect text output:
+Pixel-perfect text rendering — Markdown to 1080×1440 PNG cards via HTML/CSS + Playwright. No AI text distortion, every character crisp.
+
+**Example: "AI Transforms Business" article rendered as tuisheng brand multi-card series:**
+
+| | |
+|---|---|
+| ![page1](assets/mode-b/tuisheng-01.png) | ![page2](assets/mode-b/tuisheng-02.png) |
+
+![page3](assets/mode-b/tuisheng-03.png)
+
+*3-page card series with automatic tone detection (strategic → gold), dropcap, golden sentence highlighting, and circuit-gold background texture.*
+
+### 6 Rendering Molds
 
 | Mold | Output | Best For |
 |------|--------|----------|
@@ -64,6 +89,19 @@ Each style combines with 8 layouts (sparse, balanced, dense, list, comparison, f
 | Whiteboard (`-w`) | 1080×auto | Structured diagrams |
 
 Features: automatic tone detection, golden sentence highlighting, dropcap, overflow protection, brand-aware CSS injection.
+
+---
+
+## Hybrid Mode (Mode C)
+
+AI-generated cover for visual impact + precision layout for text-heavy content pages. Best of both worlds.
+
+| | |
+|---|---|
+| ![cover](assets/mode-c/mode-c-cover.png) | ![content](assets/mode-c/content-01.png) |
+| **Page 1: AI cover** (Gemini Pro) | **Page 2: Text layout** (Playwright) |
+
+*Cover uses concept art with golden hammer metaphor. Content pages use the same tuisheng brand colors for visual consistency across AI and HTML rendering.*
 
 ---
 
