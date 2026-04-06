@@ -94,30 +94,32 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 
 像素级精准的文字渲染 — HTML/CSS + Playwright → 1080×1440 PNG。没有 AI 文字扭曲，数据卡片、对比表格、编号行动清单——全部用清晰字体渲染。
 
-### 三个品牌 × 三种密度
+### 三个品牌 × 四种密度
 
 同一内容「AI 改变商业」，在所有品牌/密度组合下的效果：
 
 **tuisheng（暗色赛博学术）**
 
-| | | |
-|---|---|---|
-| ![](assets/mode-b/tuisheng-sparse.png) | ![](assets/mode-b/tuisheng-balanced.png) | ![](assets/mode-b/tuisheng-dense.png) |
-| 稀疏 — 标题+金句 | 平衡 — 数据卡片+引用 | 密集 — 全量内容+对比+行动 |
+| | | | |
+|---|---|---|---|
+| ![](assets/mode-b/tuisheng-sparse.png) | ![](assets/mode-b/tuisheng-balanced.png) | ![](assets/mode-b/tuisheng-medium.png) | ![](assets/mode-b/tuisheng-dense.png) |
+| 稀疏 | 平衡 | 微密 | 密集 |
 
 **qihe（商务专业）**
 
-| | | |
-|---|---|---|
-| ![](assets/mode-b/qihe-sparse.png) | ![](assets/mode-b/qihe-balanced.png) | ![](assets/mode-b/qihe-dense.png) |
-| 稀疏 — 居中标题 | 平衡 — 成本卡片+高亮 | 密集 — 全量内容+对比+行动 |
+| | | | |
+|---|---|---|---|
+| ![](assets/mode-b/qihe-sparse.png) | ![](assets/mode-b/qihe-balanced.png) | ![](assets/mode-b/qihe-medium.png) | ![](assets/mode-b/qihe-dense.png) |
+| 稀疏 | 平衡 | 微密 | 密集 |
 
 **asher（暖色个人）**
 
-| | | |
-|---|---|---|
-| ![](assets/mode-b/asher-sparse.png) | ![](assets/mode-b/asher-balanced.png) | ![](assets/mode-b/asher-dense.png) |
-| 稀疏 — 斜体引用 | 平衡 — 首字下沉+暖色卡 | 密集 — 全量内容+对比+行动 |
+| | | | |
+|---|---|---|---|
+| ![](assets/mode-b/asher-sparse.png) | ![](assets/mode-b/asher-balanced.png) | ![](assets/mode-b/asher-medium.png) | ![](assets/mode-b/asher-dense.png) |
+| 稀疏 | 平衡 | 微密 | 密集 |
+
+密度由 AI 根据内容量自动选择。密集模式必须用内容填满整页，不靠拉伸间距凑数。
 
 ### 6 种渲染模具
 

@@ -518,6 +518,17 @@ Markdown
 | 漫画 (Comic) | `-c` | 1080×auto | 黑白漫画分格 |
 | 白板 (Whiteboard) | `-w` | 1080×auto | 结构化框图，思维导图 |
 
+**Content density levels** (for multi-card mold `-m`):
+
+| Level | 内容量 | 组件 | 典型场景 |
+|-------|--------|------|---------|
+| **Sparse** | 标题 + 1 句核心金句 | 居中标题、金句、accent bar | 封面页、宣言页 |
+| **Balanced** | 标题 + 数据卡 + 引用 | 标题区、2 个数据卡、callout | 要点展示、数据亮点 |
+| **Medium** | 数据卡 + 对比表 + 引用 | 数据卡、对比表、金句高亮 | 对比分析、中等信息量 |
+| **Dense** | 全量内容刚好填满一页 | 数据卡+对比表+段落+行动清单+结语 | 知识密集、行动导向 |
+
+AI 根据内容量自动选择密度。Dense 必须内容填满，不靠间距凑。
+
 Auto-selection (when no `--mold` specified):
 - 小红书系列内容 → `-m` (multi-card)
 - 单张知识卡片 → `-l` (long)
@@ -568,6 +579,28 @@ Reference: `{skill_dir}/references/text-render/tone-detection.md`
 2. **Bin**: Distribute blocks across pages with 1440px budget per page
 3. **Verify**: Playwright renders → check actual height
 4. **Rollback**: If overflow detected → re-bin with tighter budget → re-render
+
+**Page fill rules** (critical — no empty bottom space):
+
+每张 1080×1440 卡片必须看起来「刚好填满」，不能有明显的底部空白。根据内容密度选择不同策略：
+
+| 密度 | 内容量 | CSS 策略 | 如果还有空白 |
+|------|--------|---------|-------------|
+| **Sparse** | 标题 + 1 句金句 | `.content { justify-content: center }` 垂直居中 | 留白是设计意图，不需要填 |
+| **Balanced** | 标题 + 数据卡 + 引用 | `.content { justify-content: center }` 垂直居中 | 组件间距自然均匀分布 |
+| **Medium** | 数据卡 + 对比表 + 引用 | `.content { justify-content: center }` 垂直居中 | 组件已较多，间距微调即可 |
+| **Dense** | 全量内容填满整页 | `.content { justify-content: space-between }` 均匀分布 | **必须增加内容量直到填满**，不靠拉伸间距 |
+
+**Dense 模式的核心原则**：
+- Dense = 内容量本身就该多到刚好撑满 1440px
+- 如果 Dense 内容仍有底部空白 → **增加内容**（多加 1-2 条行动项、多加一段洞察、多加一个数据点）
+- 绝不靠增大 padding/margin 来「凑满」— 那是假 dense
+- 用 `justify-content: space-between` 只是兜底，不是主要手段
+
+**通用规则**：
+- 所有密度的 `.content` 容器都必须是 `display: flex; flex-direction: column`
+- Footer 紧贴底部（`margin-top: auto`）
+- 渲染后目视检查：底部空白不超过 footer 上方 40px
 
 Reference: `{skill_dir}/references/text-render/typography.md`
 
