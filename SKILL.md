@@ -412,6 +412,27 @@ Auto-detection rules:
 
 所有图片使用相同 Session ID，确保风格一致。
 
+#### Model Selection（模型路由）
+
+| 场景 | 模型 | 原因 |
+|------|------|------|
+| 封面、概念图、氛围图 | `gemini-3-pro-image-preview` (Pro) | 视觉冲击力强，画面质量高 |
+| 文字密集的信息图/知识卡 | `gemini-3.1-flash-image-preview` (Flash) | 中文渲染精准，字体不扭曲 |
+| 三段拼接的 panel | `gemini-3.1-flash-image-preview` (Flash) | 每 panel 都有文字，需要清晰 |
+
+**自动判断规则**：
+- 图中文字 ≤ 20 字（封面/概念图）→ Pro
+- 图中文字 > 20 字（信息图/知识卡）→ Flash
+- `--model` flag 可手动覆盖
+
+**中文渲染强化 prompt**（Flash 模型时追加）：
+```
+IMPORTANT: All Chinese characters must be sharp, clear and correctly
+rendered with proper stroke structure. Use bold serif (Song/Ming) font
+for Chinese titles, clean sans-serif for body text.
+```
+
+
 ---
 
 ## 6. Mode B — Precision Text Layout
