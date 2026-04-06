@@ -3,7 +3,7 @@ name: asyre-social
 description: |
   Asyre 社媒内容创作系统。融合 AI 图片直出 + 精排版引擎 + 品牌管理。
   三种模式：Mode A (AI 信息图直出), Mode B (HTML 精排版), Mode C (混合)。
-  12 种 AI 生图风格 × 8 布局 × 23+ 预设 + 6 种排版模具 + 客户品牌系统。
+  12 种 XHS 生图风格 × 8 布局 × 23+ 预设 + 21 种信息图布局 × 20 种信息图风格 + 6 种排版模具 + 客户品牌系统。
   触发词: /asyre-social, 社媒, 小红书, 做卡片, 排版, 信息图, XHS, RedNote, 内容卡片
 user-invocable: true
 ---
@@ -348,7 +348,66 @@ Rules:
 | 7 | 引用卡 | `quote` | 大引号+金句+署名 | 金句、观点 |
 | 8 | 全出血 | `full-bleed` | 全幅背景图+叠加文字 | 封面、海报 |
 
-### 5.3 Preset Gallery
+### 5.3 Infographic Layouts & Styles (信息图模式)
+
+当内容适合高密度信息可视化时，使用 infographic 引擎（21 布局 × 20 风格）。
+
+**21 种信息图布局**：
+
+| Layout | Best For |
+|--------|----------|
+| `bento-grid` | 多主题概览（默认） |
+| `linear-progression` | 时间线、流程、教程 |
+| `binary-comparison` | A vs B、优缺点 |
+| `comparison-matrix` | 多维度对比 |
+| `hierarchical-layers` | 金字塔、优先级 |
+| `tree-branching` | 分类、知识树 |
+| `hub-spoke` | 中心概念 + 关联项 |
+| `structural-breakdown` | 分解图、解剖图 |
+| `iceberg` | 表象 vs 深层 |
+| `bridge` | 问题 → 解决方案 |
+| `funnel` | 转化漏斗、筛选 |
+| `isometric-map` | 空间关系 |
+| `dashboard` | 指标、KPI |
+| `periodic-table` | 分类集合 |
+| `comic-strip` | 叙事、步骤序列 |
+| `story-mountain` | 情节结构、张力弧 |
+| `jigsaw` | 互相关联的部分 |
+| `venn-diagram` | 交集概念 |
+| `winding-roadmap` | 旅程、里程碑 |
+| `circular-flow` | 循环流程 |
+| `dense-modules` | 高密度模块、数据指南 |
+
+**20 种信息图风格**：
+
+| Style | Description |
+|-------|-------------|
+| `craft-handmade` | 手工质感（默认） |
+| `aged-academia` | 古典学术 |
+| `bold-graphic` | 大胆图形 |
+| `chalkboard` | 黑板粉笔 |
+| `claymation` | 黏土动画 |
+| `corporate-memphis` | 企业孟菲斯 |
+| `cyberpunk-neon` | 赛博霓虹 |
+| `ikea-manual` | 宜家说明书 |
+| `kawaii` | 可爱卡通 |
+| `knolling` | 整齐排列 |
+| `lego-brick` | 乐高积木 |
+| `morandi-journal` | 莫兰迪日记 |
+| `origami` | 折纸 |
+| `pixel-art` | 像素艺术 |
+| `pop-laboratory` | 波普实验室 |
+| `retro-pop-grid` | 复古波普网格 |
+| `storybook-watercolor` | 绘本水彩 |
+| `subway-map` | 地铁路线图 |
+| `technical-schematic` | 技术原理图 |
+| `ui-wireframe` | UI 线框 |
+
+Reference: `{skill_dir}/references/ai-gen/infographic-layouts/` + `{skill_dir}/references/ai-gen/infographic-styles/`
+
+**路由规则**：xhs-images 的 12 风格 × 8 布局用于小红书卡片系列，infographic 的 21 布局 × 20 风格用于单张高密度信息图。AI 根据内容自动选择。
+
+### 5.4 Preset Gallery
 
 23+ 预设快捷方式，每个预设 = style + layout + 特定提示词组合。
 
@@ -365,7 +424,7 @@ Reference: `{skill_dir}/references/ai-gen/style-presets.md`
 | `warm-share` | paper-warm | top-image | 个人分享 |
 | `tuisheng-cover` | tuisheng | full-bleed | 推升封面 |
 
-### 5.4 Generation Process
+### 5.5 Generation Process
 
 1. **Image 1 (cover)**: Generate without `--ref`，建立视觉基调
 2. **Images 2+**: Generate with `--ref <image-01>`，确保视觉一致性
@@ -381,7 +440,7 @@ Generation per image:
 6. Save to output directory with sequential naming
 ```
 
-### 5.5 Brand Color Injection
+### 5.6 Brand Color Injection
 
 Read `{skill_dir}/brands/{brand}/ai-style.md` → extract:
 - **Color constraints**: "use #1A1A2E as background, #D4A520 as accent"
@@ -390,7 +449,7 @@ Read `{skill_dir}/brands/{brand}/ai-style.md` → extract:
 
 Inject into Gemini prompt as hard constraints (placed before content-specific instructions).
 
-### 5.6 Multi-Panel Stitch Mode
+### 5.7 Multi-Panel Stitch Mode
 
 当风格为 tuisheng 或文字密度高时，自动切换到拼接模式：
 
@@ -406,7 +465,7 @@ Auto-detection rules:
 - Other styles → 仅当 total text > 100 chars 时启用
 - 可通过 `--no-stitch` 强制关闭
 
-### 5.7 Image Generation Skill
+### 5.8 Image Generation Skill
 
 优先使用 `image-gen` skill（如果可用）。Fallback 到 `nano-banana-pro`。
 
