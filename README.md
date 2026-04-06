@@ -94,32 +94,46 @@ Each layout combines with 20 visual styles (craft-handmade, aged-academia, claym
 
 Pixel-perfect text rendering — HTML/CSS + Playwright → 1080×1440 PNG. No AI text distortion, data cards, comparison tables, numbered action lists — all rendered with crisp typography.
 
-### Three Brands × Six Densities
+### Five Brands × Six Densities
 
 Same content, *"AI Transforms Business"*, rendered across all brand/density combinations:
 
-**tuisheng (Dark Cyber-Academic)**
+**墨金 (Dark Cyber-Academic)**
 
 | | | | | | |
 |---|---|---|---|---|---|
-| ![](assets/mode-b/tuisheng-sparse.png) | ![](assets/mode-b/tuisheng-light.png) | ![](assets/mode-b/tuisheng-balanced.png) | ![](assets/mode-b/tuisheng-medium.png) | ![](assets/mode-b/tuisheng-dense.png) | ![](assets/mode-b/tuisheng-ultra.png) |
+| ![](assets/mode-b/mojin-sparse.png) | ![](assets/mode-b/mojin-light.png) | ![](assets/mode-b/mojin-balanced.png) | ![](assets/mode-b/mojin-medium.png) | ![](assets/mode-b/mojin-dense.png) | ![](assets/mode-b/mojin-ultra.png) |
 | Sparse | Light | Balanced | Medium | Dense | Ultra |
 
-**qihe (Corporate Professional)**
+**素启 (Corporate Professional)**
 
 | | | | | | |
 |---|---|---|---|---|---|
-| ![](assets/mode-b/qihe-sparse.png) | ![](assets/mode-b/qihe-light.png) | ![](assets/mode-b/qihe-balanced.png) | ![](assets/mode-b/qihe-medium.png) | ![](assets/mode-b/qihe-dense.png) | ![](assets/mode-b/qihe-ultra.png) |
+| ![](assets/mode-b/suqi-sparse.png) | ![](assets/mode-b/suqi-light.png) | ![](assets/mode-b/suqi-balanced.png) | ![](assets/mode-b/suqi-medium.png) | ![](assets/mode-b/suqi-dense.png) | ![](assets/mode-b/suqi-ultra.png) |
 | Sparse | Light | Balanced | Medium | Dense | Ultra |
 
-**asher (Warm Personal)**
+**暖荷 (Warm Personal)**
 
 | | | | | | |
 |---|---|---|---|---|---|
-| ![](assets/mode-b/asher-sparse.png) | ![](assets/mode-b/asher-light.png) | ![](assets/mode-b/asher-balanced.png) | ![](assets/mode-b/asher-medium.png) | ![](assets/mode-b/asher-dense.png) | ![](assets/mode-b/asher-ultra.png) |
+| ![](assets/mode-b/nuanhe-sparse.png) | ![](assets/mode-b/nuanhe-light.png) | ![](assets/mode-b/nuanhe-balanced.png) | ![](assets/mode-b/nuanhe-medium.png) | ![](assets/mode-b/nuanhe-dense.png) | ![](assets/mode-b/nuanhe-ultra.png) |
 | Sparse | Light | Balanced | Medium | Dense | Ultra |
 
-Content density is auto-selected based on content length. Dense/Ultra pages are always filled with actual content — never stretched spacing.
+**朱砂 (Bold Cinnabar)**
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![](assets/mode-b/zhusa-sparse.png) | ![](assets/mode-b/zhusa-light.png) | ![](assets/mode-b/zhusa-balanced.png) | ![](assets/mode-b/zhusa-medium.png) | ![](assets/mode-b/zhusa-dense.png) | ![](assets/mode-b/zhusa-ultra.png) |
+| Sparse | Light | Balanced | Medium | Dense | Ultra |
+
+**青瓷 (Celadon Elegance)**
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![](assets/mode-b/qingci-sparse.png) | ![](assets/mode-b/qingci-light.png) | ![](assets/mode-b/qingci-balanced.png) | ![](assets/mode-b/qingci-medium.png) | ![](assets/mode-b/qingci-dense.png) | ![](assets/mode-b/qingci-ultra.png) |
+| Sparse | Light | Balanced | Medium | Dense | Ultra |
+
+Content density is auto-selected. Dense/Ultra pages are always filled with actual content — never stretched spacing.
 
 ### 6 Rendering Molds
 
@@ -157,9 +171,11 @@ Every client gets their own visual identity — covering both AI generation and 
 
 | Brand | Look | Best For |
 |-------|------|----------|
-| **tuisheng** | Dark + gold/teal, cyber-academic | Community knowledge sharing |
-| **asher** | Warm paper texture, personal | Personal XHS, moments |
-| **qihe** | Corporate blue, clean | Client reports, proposals |
+| **墨金** | Dark + gold/teal, cyber-academic | Community knowledge, deep analysis |
+| **素启** | Corporate light, green accents | Client reports, proposals |
+| **暖荷** | Warm paper texture, personal | Personal XHS, moments |
+| **朱砂** | Dark + cinnabar red, dramatic | Bold statements, impact content |
+| **青瓷** | Light celadon, elegant green | Lifestyle, aesthetic sharing |
 
 ### Create Your Own Brand
 

@@ -94,29 +94,43 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 
 像素级精准的文字渲染 — HTML/CSS + Playwright → 1080×1440 PNG。没有 AI 文字扭曲，数据卡片、对比表格、编号行动清单——全部用清晰字体渲染。
 
-### 三个品牌 × 六种密度
+### 五个品牌 × 六种密度
 
 同一内容「AI 改变商业」，在所有品牌/密度组合下的效果：
 
-**tuisheng（暗色赛博学术）**
+**墨金（暗色赛博学术）**
 
 | | | | | | |
 |---|---|---|---|---|---|
-| ![](assets/mode-b/tuisheng-sparse.png) | ![](assets/mode-b/tuisheng-light.png) | ![](assets/mode-b/tuisheng-balanced.png) | ![](assets/mode-b/tuisheng-medium.png) | ![](assets/mode-b/tuisheng-dense.png) | ![](assets/mode-b/tuisheng-ultra.png) |
+| ![](assets/mode-b/mojin-sparse.png) | ![](assets/mode-b/mojin-light.png) | ![](assets/mode-b/mojin-balanced.png) | ![](assets/mode-b/mojin-medium.png) | ![](assets/mode-b/mojin-dense.png) | ![](assets/mode-b/mojin-ultra.png) |
 | 稀疏 | 轻量 | 平衡 | 微密 | 密集 | 极密 |
 
-**qihe（商务专业）**
+**素启（商务专业）**
 
 | | | | | | |
 |---|---|---|---|---|---|
-| ![](assets/mode-b/qihe-sparse.png) | ![](assets/mode-b/qihe-light.png) | ![](assets/mode-b/qihe-balanced.png) | ![](assets/mode-b/qihe-medium.png) | ![](assets/mode-b/qihe-dense.png) | ![](assets/mode-b/qihe-ultra.png) |
+| ![](assets/mode-b/suqi-sparse.png) | ![](assets/mode-b/suqi-light.png) | ![](assets/mode-b/suqi-balanced.png) | ![](assets/mode-b/suqi-medium.png) | ![](assets/mode-b/suqi-dense.png) | ![](assets/mode-b/suqi-ultra.png) |
 | 稀疏 | 轻量 | 平衡 | 微密 | 密集 | 极密 |
 
-**asher（暖色个人）**
+**暖荷（暖色个人）**
 
 | | | | | | |
 |---|---|---|---|---|---|
-| ![](assets/mode-b/asher-sparse.png) | ![](assets/mode-b/asher-light.png) | ![](assets/mode-b/asher-balanced.png) | ![](assets/mode-b/asher-medium.png) | ![](assets/mode-b/asher-dense.png) | ![](assets/mode-b/asher-ultra.png) |
+| ![](assets/mode-b/nuanhe-sparse.png) | ![](assets/mode-b/nuanhe-light.png) | ![](assets/mode-b/nuanhe-balanced.png) | ![](assets/mode-b/nuanhe-medium.png) | ![](assets/mode-b/nuanhe-dense.png) | ![](assets/mode-b/nuanhe-ultra.png) |
+| 稀疏 | 轻量 | 平衡 | 微密 | 密集 | 极密 |
+
+**朱砂（大胆冲击）**
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![](assets/mode-b/zhusa-sparse.png) | ![](assets/mode-b/zhusa-light.png) | ![](assets/mode-b/zhusa-balanced.png) | ![](assets/mode-b/zhusa-medium.png) | ![](assets/mode-b/zhusa-dense.png) | ![](assets/mode-b/zhusa-ultra.png) |
+| 稀疏 | 轻量 | 平衡 | 微密 | 密集 | 极密 |
+
+**青瓷（雅致清新）**
+
+| | | | | | |
+|---|---|---|---|---|---|
+| ![](assets/mode-b/qingci-sparse.png) | ![](assets/mode-b/qingci-light.png) | ![](assets/mode-b/qingci-balanced.png) | ![](assets/mode-b/qingci-medium.png) | ![](assets/mode-b/qingci-dense.png) | ![](assets/mode-b/qingci-ultra.png) |
 | 稀疏 | 轻量 | 平衡 | 微密 | 密集 | 极密 |
 
 密度由 AI 根据内容量自动选择。密集/极密模式必须用实际内容填满整页，不靠拉伸间距凑数。
@@ -157,9 +171,11 @@ AI 生成封面（视觉冲击）+ 精排版内容页（文字清晰）。两种
 
 | 品牌 | 视觉风格 | 适用场景 |
 |------|---------|---------|
-| **tuisheng** | 暗色 + 金/青，赛博学术 | 社群知识分享 |
-| **asher** | 暖纸质感，个人温度 | 个人小红书、朋友圈 |
-| **qihe** | 商务蓝，干净专业 | 客户报告、方案交付 |
+| **墨金** | 暗色 + 金/青，赛博学术 | 社群知识、深度分析 |
+| **素启** | 商务亮色，墨绿强调 | 客户报告、方案交付 |
+| **暖荷** | 暖纸质感，赭色温度 | 个人小红书、朋友圈 |
+| **朱砂** | 暗红 + 朱红，大胆冲击 | 强观点、高冲击内容 |
+| **青瓷** | 淡青 + 翠绿，雅致清新 | 生活方式、美学分享 |
 
 ### 创建你的品牌
 
