@@ -29,22 +29,22 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 
 ## AI 风格库（Mode A）
 
-12 种视觉风格，用于 AI 生成信息图：
+12 种视觉风格，同一主题「AI 改变商业」的不同演绎：
 
-| 风格 | 描述 | 适用场景 |
-|------|------|---------|
-| `cute` | 甜美可爱少女风 | 生活方式、美妆 |
-| `fresh` | 清新自然 | 健康、有机 |
-| `warm` | 温暖亲切 | 个人故事 |
-| `bold` | 高冲击力 | 避坑指南、重要提醒 |
-| `minimal` | 极简高级 | 专业内容 |
-| `retro` | 复古怀旧 | 经典盘点 |
-| `pop` | 活力四射 | 趣味冷知识 |
-| `notion` | 极简线条画，知性 | 知识卡片 |
-| `chalkboard` | 粉笔黑板风 | 教程 |
-| `study-notes` | 手写笔记照片风 | 学习笔记 |
-| `screen-print` | 丝网印刷海报风 | 观点文章、影评 |
-| `tuisheng` | 暗色赛博学术风，金/青双色 | 深度分析、学术内容 |
+| | |
+|---|---|
+| ![cute](assets/styles/cute-ai-business.png) | ![fresh](assets/styles/fresh-ai-business.png) |
+| **cute** — 甜美可爱少女风 | **fresh** — 清新自然 |
+| ![warm](assets/styles/warm-ai-business.png) | ![bold](assets/styles/bold-ai-business.png) |
+| **warm** — 温暖亲切 | **bold** — 高冲击力 |
+| ![minimal](assets/styles/minimal-ai-business.png) | ![retro](assets/styles/retro-ai-business.png) |
+| **minimal** — 极简高级 | **retro** — 复古怀旧 |
+| ![pop](assets/styles/pop-ai-business.png) | ![notion](assets/styles/notion-ai-business.png) |
+| **pop** — 活力四射 | **notion** — 极简线条画，知性 |
+| ![chalkboard](assets/styles/chalkboard-ai-business.png) | ![study-notes](assets/styles/study-notes-ai-business.png) |
+| **chalkboard** — 粉笔黑板风 | **study-notes** — 手写笔记照片风 |
+| ![screen-print](assets/styles/screen-print-ai-business.png) | ![tuisheng](assets/styles/tuisheng-ai-business.png) |
+| **screen-print** — 丝网印刷海报风 | **tuisheng** — 暗色赛博学术风 |
 
 每种风格可与 8 种布局（稀疏、平衡、密集、列表、对比、流程、脑图、象限）自由组合，另有 23+ 场景预设。
 

@@ -29,22 +29,22 @@ The AI automatically selects the best mode based on your content — or you can 
 
 ## AI Style Gallery (Mode A)
 
-12 visual styles for AI-generated infographics:
+12 visual styles for AI-generated infographics. Same topic — *"AI Transforms Business"* — rendered in every style:
 
-| Style | Description | Best For |
-|-------|-------------|----------|
-| `cute` | Sweet, adorable, girly | Lifestyle, beauty |
-| `fresh` | Clean, refreshing, natural | Wellness, organic |
-| `warm` | Cozy, friendly, approachable | Personal stories |
-| `bold` | High impact, attention-grabbing | Warnings, tips |
-| `minimal` | Ultra-clean, sophisticated | Professional |
-| `retro` | Vintage, nostalgic, trendy | Throwback content |
-| `pop` | Vibrant, energetic, eye-catching | Fun facts |
-| `notion` | Minimalist line art, intellectual | Knowledge cards |
-| `chalkboard` | Chalk on blackboard, educational | Tutorials |
-| `study-notes` | Handwritten photo style | Study guides |
-| `screen-print` | Bold poster art, halftone textures | Opinion pieces, editorials |
-| `tuisheng` | Dark cyber-academic, gold/teal highlights | Deep analysis, scholarly content |
+| | |
+|---|---|
+| ![cute](assets/styles/cute-ai-business.png) | ![fresh](assets/styles/fresh-ai-business.png) |
+| **cute** — Sweet, adorable, girly | **fresh** — Clean, refreshing, natural |
+| ![warm](assets/styles/warm-ai-business.png) | ![bold](assets/styles/bold-ai-business.png) |
+| **warm** — Cozy, friendly, approachable | **bold** — High impact, attention-grabbing |
+| ![minimal](assets/styles/minimal-ai-business.png) | ![retro](assets/styles/retro-ai-business.png) |
+| **minimal** — Ultra-clean, sophisticated | **retro** — Vintage, nostalgic, trendy |
+| ![pop](assets/styles/pop-ai-business.png) | ![notion](assets/styles/notion-ai-business.png) |
+| **pop** — Vibrant, energetic, eye-catching | **notion** — Minimalist line art, intellectual |
+| ![chalkboard](assets/styles/chalkboard-ai-business.png) | ![study-notes](assets/styles/study-notes-ai-business.png) |
+| **chalkboard** — Chalk on blackboard, educational | **study-notes** — Handwritten photo style |
+| ![screen-print](assets/styles/screen-print-ai-business.png) | ![tuisheng](assets/styles/tuisheng-ai-business.png) |
+| **screen-print** — Bold poster art, halftone textures | **tuisheng** — Dark cyber-academic, gold/teal |
 
 Each style combines with 8 layouts (sparse, balanced, dense, list, comparison, flow, mindmap, quadrant) and 23+ presets for quick setup.
 
