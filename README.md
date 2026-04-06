@@ -92,17 +92,32 @@ Each layout combines with 20 visual styles (craft-handmade, aged-academia, claym
 
 ## Precision Layout Engine (Mode B)
 
-Pixel-perfect text rendering — Markdown to 1080×1440 PNG cards via HTML/CSS + Playwright. No AI text distortion, every character crisp.
+Pixel-perfect text rendering — HTML/CSS + Playwright → 1080×1440 PNG. No AI text distortion, data cards, comparison tables, numbered action lists — all rendered with crisp typography.
 
-**Example: "AI Transforms Business" article rendered as tuisheng brand multi-card series:**
+### Three Brands × Three Densities
 
-| | |
-|---|---|
-| ![page1](assets/mode-b/tuisheng-01.png) | ![page2](assets/mode-b/tuisheng-02.png) |
+Same content, *"AI Transforms Business"*, rendered across all brand/density combinations:
 
-![page3](assets/mode-b/tuisheng-03.png)
+**tuisheng (Dark Cyber-Academic)**
 
-*3-page card series with automatic tone detection (strategic → gold), dropcap, golden sentence highlighting, and circuit-gold background texture.*
+| | | |
+|---|---|---|
+| ![](assets/mode-b/tuisheng-sparse.png) | ![](assets/mode-b/tuisheng-balanced.png) | ![](assets/mode-b/tuisheng-dense.png) |
+| Sparse — title + quote | Balanced — data cards + callout | Dense — full content + comparison + actions |
+
+**qihe (Corporate Professional)**
+
+| | | |
+|---|---|---|
+| ![](assets/mode-b/qihe-sparse.png) | ![](assets/mode-b/qihe-balanced.png) | ![](assets/mode-b/qihe-dense.png) |
+| Sparse — centered title | Balanced — cost cards + highlight | Dense — full content + comparison + actions |
+
+**asher (Warm Personal)**
+
+| | | |
+|---|---|---|
+| ![](assets/mode-b/asher-sparse.png) | ![](assets/mode-b/asher-balanced.png) | ![](assets/mode-b/asher-dense.png) |
+| Sparse — italic quote | Balanced — dropcap + warm cards | Dense — full content + comparison + actions |
 
 ### 6 Rendering Molds
 
@@ -115,7 +130,7 @@ Pixel-perfect text rendering — Markdown to 1080×1440 PNG cards via HTML/CSS +
 | Comic (`-c`) | 1080×auto | Manga-style B&W |
 | Whiteboard (`-w`) | 1080×auto | Structured diagrams |
 
-Features: automatic tone detection, golden sentence highlighting, dropcap, overflow protection, brand-aware CSS injection.
+Features: automatic tone detection, data cards, comparison tables, golden sentence highlighting, dropcap, vertical centering, brand-aware CSS injection.
 
 ---
 

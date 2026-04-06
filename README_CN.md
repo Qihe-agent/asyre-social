@@ -92,17 +92,32 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 
 ## 精排版引擎（Mode B）
 
-像素级精准的文字渲染 — Markdown 经 HTML/CSS + Playwright 输出为 1080×1440 PNG 卡片。没有 AI 文字扭曲，每个字都清晰锐利。
+像素级精准的文字渲染 — HTML/CSS + Playwright → 1080×1440 PNG。没有 AI 文字扭曲，数据卡片、对比表格、编号行动清单——全部用清晰字体渲染。
 
-**示例：「AI 改变商业」文章，tuisheng 品牌多卡渲染：**
+### 三个品牌 × 三种密度
 
-| | |
-|---|---|
-| ![page1](assets/mode-b/tuisheng-01.png) | ![page2](assets/mode-b/tuisheng-02.png) |
+同一内容「AI 改变商业」，在所有品牌/密度组合下的效果：
 
-![page3](assets/mode-b/tuisheng-03.png)
+**tuisheng（暗色赛博学术）**
 
-*3 页卡片系列，自动色调感知（strategic → 金色）、首字下沉、金句高亮、电路金纹理背景。*
+| | | |
+|---|---|---|
+| ![](assets/mode-b/tuisheng-sparse.png) | ![](assets/mode-b/tuisheng-balanced.png) | ![](assets/mode-b/tuisheng-dense.png) |
+| 稀疏 — 标题+金句 | 平衡 — 数据卡片+引用 | 密集 — 全量内容+对比+行动 |
+
+**qihe（商务专业）**
+
+| | | |
+|---|---|---|
+| ![](assets/mode-b/qihe-sparse.png) | ![](assets/mode-b/qihe-balanced.png) | ![](assets/mode-b/qihe-dense.png) |
+| 稀疏 — 居中标题 | 平衡 — 成本卡片+高亮 | 密集 — 全量内容+对比+行动 |
+
+**asher（暖色个人）**
+
+| | | |
+|---|---|---|
+| ![](assets/mode-b/asher-sparse.png) | ![](assets/mode-b/asher-balanced.png) | ![](assets/mode-b/asher-dense.png) |
+| 稀疏 — 斜体引用 | 平衡 — 首字下沉+暖色卡 | 密集 — 全量内容+对比+行动 |
 
 ### 6 种渲染模具
 
@@ -115,7 +130,7 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 | 漫画 (`-c`) | 1080×自适应高度 | 黑白漫画 |
 | 白板 (`-w`) | 1080×自适应高度 | 结构化框图 |
 
-特性：自动色调感知、金句高亮、首字下沉、溢出保护、品牌 CSS 注入。
+特性：自动色调感知、数据卡片、对比表格、金句高亮、首字下沉、垂直居中、品牌 CSS 注入。
 
 ---
 
