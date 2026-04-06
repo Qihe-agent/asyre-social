@@ -418,7 +418,7 @@ Auto-detection rules:
 |------|------|------|
 | 封面、概念图、氛围图 | `gemini-3-pro-image-preview` (Pro) | 视觉冲击力强，画面质量高 |
 | 文字密集的信息图/知识卡 | `gemini-3.1-flash-image-preview` (Flash) | 中文渲染精准，字体不扭曲 |
-| 三段拼接的 panel | `gemini-3.1-flash-image-preview` (Flash) | 每 panel 都有文字，需要清晰 |
+| 三段拼接的 panel | `gemini-3-pro-image-preview` (Pro) | 每 panel 文字量少，Pro 冲击力更强 |
 
 **自动判断规则**：
 - 图中文字 ≤ 20 字（封面/概念图）→ Pro
