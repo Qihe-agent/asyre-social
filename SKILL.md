@@ -523,9 +523,11 @@ Markdown
 | Level | 内容量 | 组件 | 典型场景 |
 |-------|--------|------|---------|
 | **Sparse** | 标题 + 1 句核心金句 | 居中标题、金句、accent bar | 封面页、宣言页 |
-| **Balanced** | 标题 + 数据卡 + 引用 | 标题区、2 个数据卡、callout | 要点展示、数据亮点 |
+| **Light** | 标题 + 段落 + 数据卡 | 标题区、首字下沉段落、2 个数据卡 | 开篇介绍、数据亮点 |
+| **Balanced** | 标题 + 数据卡 + 引用 | 标题区、2 个数据卡、callout | 要点展示、带引用 |
 | **Medium** | 数据卡 + 对比表 + 引用 | 数据卡、对比表、金句高亮 | 对比分析、中等信息量 |
 | **Dense** | 全量内容刚好填满一页 | 数据卡+对比表+段落+行动清单+结语 | 知识密集、行动导向 |
+| **Ultra** | 极致密度，字号更小 | 4列数据+5行对比+段落+7条行动+结语，REF标签 | 数据手册、完整指南 |
 
 AI 根据内容量自动选择密度。Dense 必须内容填满，不靠间距凑。
 
@@ -586,10 +588,12 @@ Reference: `{skill_dir}/references/text-render/tone-detection.md`
 
 | 密度 | 内容量 | CSS 策略 | 如果还有空白 |
 |------|--------|---------|-------------|
-| **Sparse** | 标题 + 1 句金句 | `.content { justify-content: center }` 垂直居中 | 留白是设计意图，不需要填 |
-| **Balanced** | 标题 + 数据卡 + 引用 | `.content { justify-content: center }` 垂直居中 | 组件间距自然均匀分布 |
-| **Medium** | 数据卡 + 对比表 + 引用 | `.content { justify-content: center }` 垂直居中 | 组件已较多，间距微调即可 |
-| **Dense** | 全量内容填满整页 | `.content { justify-content: space-between }` 均匀分布 | **必须增加内容量直到填满**，不靠拉伸间距 |
+| **Sparse** | 标题 + 1 句金句 | `justify-content: center` 垂直居中 | 留白是设计意图 |
+| **Light** | 标题 + 段落 + 数据卡 | `justify-content: center` 垂直居中 | 自然间距 |
+| **Balanced** | 标题 + 数据卡 + 引用 | `justify-content: center` 垂直居中 | 组件间距均匀 |
+| **Medium** | 数据卡 + 对比表 + 引用 | `justify-content: center` 垂直居中 | 间距微调即可 |
+| **Dense** | 全量内容填满整页 | `justify-content: space-between` | **必须增加内容量直到填满** |
+| **Ultra** | 极致密度，字号缩小 | `justify-content: space-between` | **必须增加内容量 + 数据点** |
 
 **Dense 模式的核心原则**：
 - Dense = 内容量本身就该多到刚好撑满 1440px
