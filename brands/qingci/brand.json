@@ -1,0 +1,27 @@
+{
+  "id": "qingci",
+  "name": "青瓷",
+  "visual": {
+    "colors": {
+      "background": "#F2F6F4",
+      "primary": "#2A7B6B",
+      "secondary": "#C17F4E",
+      "text": "#1A2420",
+      "text_dim": "#8CA098",
+      "accent": "#2A7B6B"
+    },
+    "fonts": { "heading": "Noto Serif SC", "body": "Noto Serif SC", "mono": "SF Mono" },
+    "tone_variants": ["literary", "scientific"]
+  },
+  "ai_style": {
+    "preferred_styles": ["fresh", "minimal", "craft-handmade"],
+    "color_constraints": "Light celadon backgrounds, green (#2A7B6B) and coral (#C17F4E) accents",
+    "negative": ["dark", "cyber", "neon", "aggressive"]
+  },
+  "text_render": {
+    "page_size": [1080, 1440], "body_font_size": "38px", "dropcap": true,
+    "golden_sentence": true, "background_texture": null, "mold_default": "multi-card"
+  },
+  "watermark": { "enabled": true, "content": "青瓷 | CELADON", "position": "bottom-right" },
+  "signature": { "author": "青瓷 | CELADON", "avatar": null }
+}

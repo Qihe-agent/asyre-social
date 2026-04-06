@@ -1,0 +1,142 @@
+/* 朱砂 (CINNABAR) — Brand Base CSS */
+
+:root {
+  --color-background: #120808;
+  --color-primary: #C0392B;
+  --color-secondary: #D4A520;
+  --color-text: #F0E0D0;
+  --color-text-dim: #5C4840;
+  --color-accent: #C0392B;
+  --font-heading: 'Noto Serif SC', serif;
+  --font-body: 'Noto Serif SC', serif;
+  --font-mono: 'SF Mono', monospace;
+}
+
+/* === Page === */
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.8;
+}
+
+/* Radial red glow at top */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 400px;
+  background: radial-gradient(ellipse at center top, rgba(192,57,43,0.06) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* === Typography === */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+h1 { font-size: 2em; margin-bottom: 0.4em; }
+h2 { font-size: 1.5em; margin-bottom: 0.3em; }
+h3 { font-size: 1.2em; margin-bottom: 0.2em; }
+
+p {
+  margin-bottom: 1em;
+  color: var(--color-text);
+}
+
+/* === Cards === */
+.card {
+  background: rgba(192,57,43,0.04);
+  border: 1px solid rgba(192,57,43,0.2);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 0 20px rgba(192,57,43,0.06);
+}
+
+.card:hover {
+  border-color: rgba(192,57,43,0.4);
+  box-shadow: 0 0 30px rgba(192,57,43,0.1);
+}
+
+/* === Callout === */
+.callout {
+  border-left: 3px solid var(--color-secondary);
+  padding: 16px 20px;
+  margin: 16px 0;
+  background: rgba(212,165,32,0.04);
+  border-radius: 0 8px 8px 0;
+  color: var(--color-text);
+}
+
+/* === Numbered Action Circles === */
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: var(--color-text);
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+/* === Highlight === */
+.highlight {
+  border-left: 3px solid var(--color-primary);
+  padding: 12px 16px;
+  margin: 12px 0;
+  background: rgba(192,57,43,0.04);
+  border-radius: 0 6px 6px 0;
+}
+
+/* === Golden Sentence === */
+.golden-sentence {
+  font-size: 1.15em;
+  color: var(--color-secondary);
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 0.02em;
+}
+
+/* === Watermark === */
+.watermark {
+  position: fixed;
+  bottom: 16px;
+  right: 20px;
+  font-size: 11px;
+  color: var(--color-text-dim);
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+}
+
+/* === Utility === */
+code {
+  font-family: var(--font-mono);
+  background: rgba(192,57,43,0.08);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(192,57,43,0.3);
+}
+
+a:hover {
+  border-bottom-color: var(--color-primary);
+}

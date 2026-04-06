@@ -1,0 +1,148 @@
+/* 青瓷 (CELADON) — Brand Base CSS */
+
+:root {
+  --color-background: #F2F6F4;
+  --color-primary: #2A7B6B;
+  --color-secondary: #C17F4E;
+  --color-text: #1A2420;
+  --color-text-dim: #8CA098;
+  --color-accent: #2A7B6B;
+  --font-heading: 'Noto Serif SC', serif;
+  --font-body: 'Noto Serif SC', serif;
+  --font-mono: 'SF Mono', monospace;
+}
+
+/* === Page === */
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.8;
+}
+
+/* === Typography === */
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+h1 { font-size: 2em; margin-bottom: 0.4em; }
+h2 { font-size: 1.5em; margin-bottom: 0.3em; }
+h3 { font-size: 1.2em; margin-bottom: 0.2em; }
+
+p {
+  margin-bottom: 1em;
+  color: var(--color-text);
+}
+
+/* === Dropcap === */
+.dropcap::first-letter {
+  float: left;
+  font-size: 3.2em;
+  line-height: 0.8;
+  padding-right: 8px;
+  padding-top: 4px;
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+/* === Cards === */
+.card {
+  background: #FFFFFF;
+  border: 1px solid rgba(42,123,107,0.1);
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 12px rgba(42,123,107,0.06);
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(42,123,107,0.1);
+}
+
+/* === Warm Card (celadon gradient) === */
+.card-warm {
+  background: linear-gradient(135deg, #F2F6F4 0%, #EAF0ED 50%, #F5F0EB 100%);
+  border: 1px solid rgba(42,123,107,0.08);
+  border-radius: 10px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+/* === Callout === */
+.callout {
+  border-left: 3px solid var(--color-primary);
+  padding: 16px 20px;
+  margin: 16px 0;
+  background: rgba(42,123,107,0.04);
+  border-radius: 0 8px 8px 0;
+  color: var(--color-text);
+}
+
+/* === Numbered Action Circles === */
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+/* === Highlight === */
+.highlight {
+  border-left: 3px solid var(--color-primary);
+  padding: 12px 16px;
+  margin: 12px 0;
+  background: rgba(42,123,107,0.04);
+  border-radius: 0 6px 6px 0;
+}
+
+/* === Golden Sentence === */
+.golden-sentence {
+  font-size: 1.15em;
+  color: var(--color-primary);
+  font-weight: 600;
+  text-align: center;
+  padding: 20px 0;
+  letter-spacing: 0.02em;
+}
+
+/* === Watermark === */
+.watermark {
+  position: fixed;
+  bottom: 16px;
+  right: 20px;
+  font-size: 11px;
+  color: var(--color-text-dim);
+  letter-spacing: 0.08em;
+  opacity: 0.5;
+}
+
+/* === Utility === */
+code {
+  font-family: var(--font-mono);
+  background: rgba(42,123,107,0.06);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(42,123,107,0.3);
+}
+
+a:hover {
+  border-bottom-color: var(--color-primary);
+}

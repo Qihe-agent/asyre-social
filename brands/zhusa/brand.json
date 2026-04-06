@@ -1,0 +1,27 @@
+{
+  "id": "zhusa",
+  "name": "朱砂",
+  "visual": {
+    "colors": {
+      "background": "#120808",
+      "primary": "#C0392B",
+      "secondary": "#D4A520",
+      "text": "#F0E0D0",
+      "text_dim": "#5C4840",
+      "accent": "#C0392B"
+    },
+    "fonts": { "heading": "Noto Serif SC", "body": "Noto Serif SC", "mono": "SF Mono" },
+    "tone_variants": ["strategic", "philosophical"]
+  },
+  "ai_style": {
+    "preferred_styles": ["screen-print", "bold"],
+    "color_constraints": "Dark backgrounds, cinnabar red (#C0392B) and gold (#D4A520) accents",
+    "negative": ["cute", "pastel", "fresh", "kawaii"]
+  },
+  "text_render": {
+    "page_size": [1080, 1440], "body_font_size": "38px", "dropcap": false,
+    "golden_sentence": true, "background_texture": null, "mold_default": "multi-card"
+  },
+  "watermark": { "enabled": true, "content": "朱砂 | CINNABAR", "position": "bottom-right" },
+  "signature": { "author": "朱砂 | CINNABAR", "avatar": null }
+}
