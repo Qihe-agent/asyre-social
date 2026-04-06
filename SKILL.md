@@ -350,7 +350,7 @@ Rules:
 
 ### 5.3 Infographic Layouts & Styles (信息图模式)
 
-当内容适合高密度信息可视化时，使用 infographic 引擎（21 布局 × 20 风格）。
+当内容适合高密度信息可视化时，使用 infographic 引擎（23 布局 × 20 风格）。
 
 **21 种信息图布局**：
 
@@ -377,6 +377,8 @@ Rules:
 | `winding-roadmap` | 旅程、里程碑 |
 | `circular-flow` | 循环流程 |
 | `dense-modules` | 高密度模块、数据指南 |
+| `swot-analysis` | SWOT 四象限分析 |
+| `radar-chart` | 雷达图/蛛网图对比 |
 
 **20 种信息图风格**：
 
@@ -405,7 +407,7 @@ Rules:
 
 Reference: `{skill_dir}/references/ai-gen/infographic-layouts/` + `{skill_dir}/references/ai-gen/infographic-styles/`
 
-**路由规则**：xhs-images 的 12 风格 × 8 布局用于小红书卡片系列，infographic 的 21 布局 × 20 风格用于单张高密度信息图。AI 根据内容自动选择。
+**路由规则**：xhs-images 的 12 风格 × 8 布局用于小红书卡片系列，infographic 的 23 布局 × 20 风格用于单张高密度信息图。AI 根据内容自动选择。
 
 ### 5.4 Preset Gallery
 

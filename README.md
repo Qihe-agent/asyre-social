@@ -83,8 +83,8 @@ High-density information visualization — single-image infographics with struct
 | **venn-diagram** | **jigsaw** | **winding-roadmap** |
 | ![](assets/infographic-layouts/comic-strip.png) | ![](assets/infographic-layouts/story-mountain.png) | ![](assets/infographic-layouts/dense-modules.png) |
 | **comic-strip** | **story-mountain** | **dense-modules** |
-| ![](assets/infographic-layouts/structural-breakdown.png) | | |
-| **structural-breakdown** | | |
+| ![](assets/infographic-layouts/structural-breakdown.png) | ![](assets/infographic-layouts/swot-analysis.png) | ![](assets/infographic-layouts/radar-chart.png) |
+| **structural-breakdown** | **swot-analysis** | **radar-chart** |
 
 **Same 21 layouts in craft-handmade Chinese style:**
 

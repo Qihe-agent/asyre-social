@@ -83,8 +83,8 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 | **venn-diagram** | **jigsaw** | **winding-roadmap** |
 | ![](assets/infographic-layouts/comic-strip.png) | ![](assets/infographic-layouts/story-mountain.png) | ![](assets/infographic-layouts/dense-modules.png) |
 | **comic-strip** | **story-mountain** | **dense-modules** |
-| ![](assets/infographic-layouts/structural-breakdown.png) | | |
-| **structural-breakdown** | | |
+| ![](assets/infographic-layouts/structural-breakdown.png) | ![](assets/infographic-layouts/swot-analysis.png) | ![](assets/infographic-layouts/radar-chart.png) |
+| **structural-breakdown** | **swot-analysis** | **radar-chart** |
 
 **同样 21 种布局，手绘中文版：**
 
