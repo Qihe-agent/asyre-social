@@ -94,32 +94,32 @@ Each layout combines with 20 visual styles (craft-handmade, aged-academia, claym
 
 Pixel-perfect text rendering — HTML/CSS + Playwright → 1080×1440 PNG. No AI text distortion, data cards, comparison tables, numbered action lists — all rendered with crisp typography.
 
-### Three Brands × Four Densities
+### Three Brands × Six Densities
 
 Same content, *"AI Transforms Business"*, rendered across all brand/density combinations:
 
 **tuisheng (Dark Cyber-Academic)**
 
-| | | | |
-|---|---|---|---|
-| ![](assets/mode-b/tuisheng-sparse.png) | ![](assets/mode-b/tuisheng-balanced.png) | ![](assets/mode-b/tuisheng-medium.png) | ![](assets/mode-b/tuisheng-dense.png) |
-| Sparse | Balanced | Medium | Dense |
+| | | | | | |
+|---|---|---|---|---|---|
+| ![](assets/mode-b/tuisheng-sparse.png) | ![](assets/mode-b/tuisheng-light.png) | ![](assets/mode-b/tuisheng-balanced.png) | ![](assets/mode-b/tuisheng-medium.png) | ![](assets/mode-b/tuisheng-dense.png) | ![](assets/mode-b/tuisheng-ultra.png) |
+| Sparse | Light | Balanced | Medium | Dense | Ultra |
 
 **qihe (Corporate Professional)**
 
-| | | | |
-|---|---|---|---|
-| ![](assets/mode-b/qihe-sparse.png) | ![](assets/mode-b/qihe-balanced.png) | ![](assets/mode-b/qihe-medium.png) | ![](assets/mode-b/qihe-dense.png) |
-| Sparse | Balanced | Medium | Dense |
+| | | | | | |
+|---|---|---|---|---|---|
+| ![](assets/mode-b/qihe-sparse.png) | ![](assets/mode-b/qihe-light.png) | ![](assets/mode-b/qihe-balanced.png) | ![](assets/mode-b/qihe-medium.png) | ![](assets/mode-b/qihe-dense.png) | ![](assets/mode-b/qihe-ultra.png) |
+| Sparse | Light | Balanced | Medium | Dense | Ultra |
 
 **asher (Warm Personal)**
 
-| | | | |
-|---|---|---|---|
-| ![](assets/mode-b/asher-sparse.png) | ![](assets/mode-b/asher-balanced.png) | ![](assets/mode-b/asher-medium.png) | ![](assets/mode-b/asher-dense.png) |
-| Sparse | Balanced | Medium | Dense |
+| | | | | | |
+|---|---|---|---|---|---|
+| ![](assets/mode-b/asher-sparse.png) | ![](assets/mode-b/asher-light.png) | ![](assets/mode-b/asher-balanced.png) | ![](assets/mode-b/asher-medium.png) | ![](assets/mode-b/asher-dense.png) | ![](assets/mode-b/asher-ultra.png) |
+| Sparse | Light | Balanced | Medium | Dense | Ultra |
 
-Content density is auto-selected. Dense pages are always filled — more content is added to avoid empty space, never stretched spacing.
+Content density is auto-selected based on content length. Dense/Ultra pages are always filled with actual content — never stretched spacing.
 
 ### 6 Rendering Molds
 
