@@ -65,28 +65,28 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 
 ## 信息图引擎（21 种布局 × 20 种风格）
 
-高密度信息可视化 — 单张结构化信息图。
+高密度信息可视化 — 单张结构化信息图。以 *technical-schematic* 科技蓝图风展示：
 
 | | | |
 |---|---|---|
-| ![bento-grid](assets/infographic-layouts/bento-grid.png) | ![bridge](assets/infographic-layouts/bridge.png) | ![circular-flow](assets/infographic-layouts/circular-flow.png) |
-| **bento-grid** — 多主题概览 | **bridge** — 问题→解决方案 | **circular-flow** — 循环流程 |
-| ![comparison-table](assets/infographic-layouts/comparison-table.png) | ![binary-comparison](assets/infographic-layouts/binary-comparison.png) | ![comparison-matrix](assets/infographic-layouts/comparison-matrix.png) |
-| **comparison-table** — 对比表格 | **binary-comparison** — A vs B | **comparison-matrix** — 多维矩阵 |
-| ![funnel](assets/infographic-layouts/funnel.png) | ![iceberg](assets/infographic-layouts/iceberg.png) | ![hierarchical-layers](assets/infographic-layouts/hierarchical-layers.png) |
-| **funnel** — 转化漏斗 | **iceberg** — 冰山模型 | **hierarchical-layers** — 金字塔 |
-| ![hub-spoke](assets/infographic-layouts/hub-spoke.png) | ![tree-branching](assets/infographic-layouts/tree-branching.png) | ![linear-progression](assets/infographic-layouts/linear-progression.png) |
-| **hub-spoke** — 中心辐射 | **tree-branching** — 知识树 | **linear-progression** — 时间线 |
-| ![dashboard](assets/infographic-layouts/dashboard.png) | ![isometric-map](assets/infographic-layouts/isometric-map.png) | ![periodic-table](assets/infographic-layouts/periodic-table.png) |
-| **dashboard** — KPI 看板 | **isometric-map** — 等距空间图 | **periodic-table** — 元素周期表 |
-| ![venn-diagram](assets/infographic-layouts/venn-diagram.png) | ![jigsaw](assets/infographic-layouts/jigsaw.png) | ![winding-roadmap](assets/infographic-layouts/winding-roadmap.png) |
-| **venn-diagram** — 韦恩图 | **jigsaw** — 拼图关联 | **winding-roadmap** — 蜿蜒路线图 |
-| ![comic-strip](assets/infographic-layouts/comic-strip.png) | ![story-mountain](assets/infographic-layouts/story-mountain.png) | ![dense-modules](assets/infographic-layouts/dense-modules.png) |
-| **comic-strip** — 漫画叙事 | **story-mountain** — 故事张力弧 | **dense-modules** — 高密度模块 |
-| ![structural-breakdown](assets/infographic-layouts/structural-breakdown.png) | | |
-| **structural-breakdown** — 结构分解 | | |
+| ![](assets/infographic-layouts/bento-grid.png) | ![](assets/infographic-layouts/bridge.png) | ![](assets/infographic-layouts/circular-flow.png) |
+| **bento-grid** | **bridge** | **circular-flow** |
+| ![](assets/infographic-layouts/comparison-table.png) | ![](assets/infographic-layouts/binary-comparison.png) | ![](assets/infographic-layouts/comparison-matrix.png) |
+| **comparison-table** | **binary-comparison** | **comparison-matrix** |
+| ![](assets/infographic-layouts/funnel.png) | ![](assets/infographic-layouts/iceberg.png) | ![](assets/infographic-layouts/hierarchical-layers.png) |
+| **funnel** | **iceberg** | **hierarchical-layers** |
+| ![](assets/infographic-layouts/hub-spoke.png) | ![](assets/infographic-layouts/tree-branching.png) | ![](assets/infographic-layouts/linear-progression.png) |
+| **hub-spoke** | **tree-branching** | **linear-progression** |
+| ![](assets/infographic-layouts/dashboard.png) | ![](assets/infographic-layouts/isometric-map.png) | ![](assets/infographic-layouts/periodic-table.png) |
+| **dashboard** | **isometric-map** | **periodic-table** |
+| ![](assets/infographic-layouts/venn-diagram.png) | ![](assets/infographic-layouts/jigsaw.png) | ![](assets/infographic-layouts/winding-roadmap.png) |
+| **venn-diagram** | **jigsaw** | **winding-roadmap** |
+| ![](assets/infographic-layouts/comic-strip.png) | ![](assets/infographic-layouts/story-mountain.png) | ![](assets/infographic-layouts/dense-modules.png) |
+| **comic-strip** | **story-mountain** | **dense-modules** |
+| ![](assets/infographic-layouts/structural-breakdown.png) | | |
+| **structural-breakdown** | | |
 
-每种布局可搭配 20 种视觉风格（手工质感、古典学术、黏土动画、赛博霓虹、宜家说明书、折纸、像素艺术等）。
+每种布局可搭配 20 种视觉风格：手工质感、古典学术、黏土动画、赛博霓虹、宜家说明书、折纸、像素艺术、技术蓝图等。
 
 ---
 

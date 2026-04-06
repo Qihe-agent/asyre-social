@@ -65,28 +65,28 @@ Presets = style + layout in one flag. Three popular presets on the same topic:
 
 ## Infographic Engine (21 Layouts × 20 Styles)
 
-For high-density information visualization — single-image infographics with structured layouts.
+High-density information visualization — single-image infographics with structured layouts. Shown in *technical-schematic* style:
 
 | | | |
 |---|---|---|
-| ![bento-grid](assets/infographic-layouts/bento-grid.png) | ![bridge](assets/infographic-layouts/bridge.png) | ![circular-flow](assets/infographic-layouts/circular-flow.png) |
-| **bento-grid** — Multi-topic overview | **bridge** — Problem → Solution | **circular-flow** — Cycles |
-| ![comparison-table](assets/infographic-layouts/comparison-table.png) | ![binary-comparison](assets/infographic-layouts/binary-comparison.png) | ![comparison-matrix](assets/infographic-layouts/comparison-matrix.png) |
-| **comparison-table** — Side-by-side | **binary-comparison** — A vs B | **comparison-matrix** — Multi-factor |
-| ![funnel](assets/infographic-layouts/funnel.png) | ![iceberg](assets/infographic-layouts/iceberg.png) | ![hierarchical-layers](assets/infographic-layouts/hierarchical-layers.png) |
-| **funnel** — Conversion stages | **iceberg** — Surface vs hidden | **hierarchical-layers** — Pyramid |
-| ![hub-spoke](assets/infographic-layouts/hub-spoke.png) | ![tree-branching](assets/infographic-layouts/tree-branching.png) | ![linear-progression](assets/infographic-layouts/linear-progression.png) |
-| **hub-spoke** — Central concept | **tree-branching** — Categories | **linear-progression** — Timeline |
-| ![dashboard](assets/infographic-layouts/dashboard.png) | ![isometric-map](assets/infographic-layouts/isometric-map.png) | ![periodic-table](assets/infographic-layouts/periodic-table.png) |
-| **dashboard** — KPI metrics | **isometric-map** — Spatial | **periodic-table** — Categorized |
-| ![venn-diagram](assets/infographic-layouts/venn-diagram.png) | ![jigsaw](assets/infographic-layouts/jigsaw.png) | ![winding-roadmap](assets/infographic-layouts/winding-roadmap.png) |
-| **venn-diagram** — Overlapping concepts | **jigsaw** — Interconnected parts | **winding-roadmap** — Journey |
-| ![comic-strip](assets/infographic-layouts/comic-strip.png) | ![story-mountain](assets/infographic-layouts/story-mountain.png) | ![dense-modules](assets/infographic-layouts/dense-modules.png) |
-| **comic-strip** — Narrative sequence | **story-mountain** — Tension arc | **dense-modules** — Data-rich guide |
-| ![structural-breakdown](assets/infographic-layouts/structural-breakdown.png) | | |
-| **structural-breakdown** — Exploded view | | |
+| ![](assets/infographic-layouts/bento-grid.png) | ![](assets/infographic-layouts/bridge.png) | ![](assets/infographic-layouts/circular-flow.png) |
+| **bento-grid** | **bridge** | **circular-flow** |
+| ![](assets/infographic-layouts/comparison-table.png) | ![](assets/infographic-layouts/binary-comparison.png) | ![](assets/infographic-layouts/comparison-matrix.png) |
+| **comparison-table** | **binary-comparison** | **comparison-matrix** |
+| ![](assets/infographic-layouts/funnel.png) | ![](assets/infographic-layouts/iceberg.png) | ![](assets/infographic-layouts/hierarchical-layers.png) |
+| **funnel** | **iceberg** | **hierarchical-layers** |
+| ![](assets/infographic-layouts/hub-spoke.png) | ![](assets/infographic-layouts/tree-branching.png) | ![](assets/infographic-layouts/linear-progression.png) |
+| **hub-spoke** | **tree-branching** | **linear-progression** |
+| ![](assets/infographic-layouts/dashboard.png) | ![](assets/infographic-layouts/isometric-map.png) | ![](assets/infographic-layouts/periodic-table.png) |
+| **dashboard** | **isometric-map** | **periodic-table** |
+| ![](assets/infographic-layouts/venn-diagram.png) | ![](assets/infographic-layouts/jigsaw.png) | ![](assets/infographic-layouts/winding-roadmap.png) |
+| **venn-diagram** | **jigsaw** | **winding-roadmap** |
+| ![](assets/infographic-layouts/comic-strip.png) | ![](assets/infographic-layouts/story-mountain.png) | ![](assets/infographic-layouts/dense-modules.png) |
+| **comic-strip** | **story-mountain** | **dense-modules** |
+| ![](assets/infographic-layouts/structural-breakdown.png) | | |
+| **structural-breakdown** | | |
 
-Each layout combines with 20 visual styles (craft-handmade, aged-academia, claymation, cyberpunk-neon, ikea-manual, origami, pixel-art, and more).
+Each layout combines with 20 visual styles: craft-handmade, aged-academia, claymation, cyberpunk-neon, ikea-manual, origami, pixel-art, technical-schematic, and more.
 
 ---
 
