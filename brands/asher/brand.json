@@ -1,0 +1,43 @@
+{
+  "id": "asher",
+  "name": "Asher 修荷",
+  "visual": {
+    "colors": {
+      "background": "#FAFAF8",
+      "primary": "#D4A520",
+      "secondary": "#40B8B8",
+      "text": "#2C2C2C",
+      "text_dim": "#888888",
+      "accent": "#C17F4E"
+    },
+    "fonts": {
+      "heading": "Noto Serif SC",
+      "body": "Noto Serif SC",
+      "mono": "SF Mono"
+    },
+    "tone_variants": ["speculative", "tech", "literary", "scientific", "default"]
+  },
+  "ai_style": {
+    "preferred_styles": ["warm", "minimal", "notion"],
+    "color_constraints": "Warm tones, earth colors. Can be light or dark background depending on mood.",
+    "negative": ["neon", "cyber", "aggressive"]
+  },
+  "text_render": {
+    "page_size": [1080, 1440],
+    "body_font_size": "38px",
+    "dropcap": true,
+    "golden_sentence": true,
+    "background_texture": null,
+    "mold_default": "multi-card"
+  },
+  "watermark": {
+    "enabled": true,
+    "content": "Asher 修荷",
+    "position": "bottom-right",
+    "opacity": 0.5
+  },
+  "signature": {
+    "author": "Asher 修荷",
+    "avatar": "~/.xiao-a/assets/avatars/asher-avatar.jpg"
+  }
+}

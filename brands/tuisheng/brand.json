@@ -1,0 +1,43 @@
+{
+  "id": "tuisheng",
+  "name": "蜕升学院",
+  "visual": {
+    "colors": {
+      "background": "#0D0D0F",
+      "primary": "#D4A520",
+      "secondary": "#40B8B8",
+      "text": "#E8E0D0",
+      "text_dim": "#8A8070",
+      "accent": "#C0392B"
+    },
+    "fonts": {
+      "heading": "Noto Serif SC",
+      "body": "Noto Serif SC",
+      "mono": "SF Mono"
+    },
+    "tone_variants": ["strategic", "tech", "philosophical", "literary"]
+  },
+  "ai_style": {
+    "preferred_styles": ["tuisheng", "screen-print", "chalkboard"],
+    "color_constraints": "Dark backgrounds only. Amber/gold (#D4A520) and teal (#40B8B8) accents. Never bright, pastel, or cute.",
+    "negative": ["cute", "kawaii", "pastel", "bright", "pink", "neon"]
+  },
+  "text_render": {
+    "page_size": [1080, 1440],
+    "body_font_size": "38px",
+    "dropcap": true,
+    "golden_sentence": true,
+    "background_texture": "../../asyre-xhs/backgrounds/circuit-gold-seamless.png",
+    "mold_default": "multi-card"
+  },
+  "watermark": {
+    "enabled": true,
+    "content": "蜕升学院",
+    "position": "bottom-right",
+    "opacity": 0.6
+  },
+  "signature": {
+    "author": "Asher 修荷",
+    "avatar": "~/.xiao-a/assets/avatars/asher-avatar.jpg"
+  }
+}

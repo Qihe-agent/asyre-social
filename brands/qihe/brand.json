@@ -1,0 +1,43 @@
+{
+  "id": "qihe",
+  "name": "启合涌现",
+  "visual": {
+    "colors": {
+      "background": "#F7F8FC",
+      "primary": "#2563EB",
+      "secondary": "#D69E2E",
+      "text": "#1A1A2E",
+      "text_dim": "#6B7280",
+      "accent": "#2563EB"
+    },
+    "fonts": {
+      "heading": "DM Serif Display",
+      "body": "DM Sans",
+      "mono": "SF Mono"
+    },
+    "tone_variants": []
+  },
+  "ai_style": {
+    "preferred_styles": ["minimal", "notion", "fresh"],
+    "color_constraints": "Professional blue (#2563EB) and gold (#D69E2E) accents. Clean, corporate, not flashy.",
+    "negative": ["dark", "cyber", "grunge", "aggressive", "cute"]
+  },
+  "text_render": {
+    "page_size": [1080, 1440],
+    "body_font_size": "38px",
+    "dropcap": false,
+    "golden_sentence": false,
+    "background_texture": null,
+    "mold_default": "infograph"
+  },
+  "watermark": {
+    "enabled": true,
+    "content": "启合涌现 | Emergence Studio",
+    "position": "bottom-right",
+    "opacity": 0.4
+  },
+  "signature": {
+    "author": "启合涌现",
+    "avatar": null
+  }
+}

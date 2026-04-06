@@ -1,0 +1,5 @@
+{
+  "name": "asyre-social",
+  "description": "Asyre Social Media Content System — AI image generation + precision text layout + brand management. Three modes: AI direct (12 styles x 8 layouts x 23+ presets), HTML precision layout (6 molds), Hybrid. Per-client brand system.",
+  "triggers": ["社媒", "小红书", "做卡片", "排版", "信息图", "XHS", "RedNote", "content card", "social media"]
+}

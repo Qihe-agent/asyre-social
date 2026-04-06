@@ -1,0 +1,77 @@
+{
+  "_comment": "Brand configuration template for asyre-social. Copy this file to brands/<brand-id>/brand.json and fill in values.",
+
+  "id": "brand-id",
+  "_id_comment": "Unique identifier, lowercase, no spaces. Used as folder name and CLI flag.",
+
+  "name": "品牌显示名",
+  "_name_comment": "Display name shown in watermarks, headers, and UI.",
+
+  "visual": {
+    "colors": {
+      "background": "#FFFFFF",
+      "_background_comment": "Page background color. Dark (#0D0D0F) or light (#FAFAF8).",
+      "primary": "#000000",
+      "_primary_comment": "Main accent color for titles, highlights, interactive elements.",
+      "secondary": "#666666",
+      "_secondary_comment": "Secondary accent for subheadings, tags, supporting elements.",
+      "text": "#333333",
+      "_text_comment": "Main body text color. High contrast against background.",
+      "text_dim": "#999999",
+      "_text_dim_comment": "Muted text for dates, captions, page numbers.",
+      "accent": "#FF0000",
+      "_accent_comment": "Tertiary color for callouts, warnings, special emphasis."
+    },
+    "fonts": {
+      "heading": "Noto Serif SC",
+      "_heading_comment": "Font for h1/h2/h3 and titles. Serif recommended for Chinese.",
+      "body": "Noto Serif SC",
+      "_body_comment": "Font for body text and paragraphs.",
+      "mono": "SF Mono",
+      "_mono_comment": "Monospace font for code, page numbers, labels."
+    },
+    "tone_variants": [],
+    "_tone_variants_comment": "Array of tone names (e.g. 'tech', 'literary'). Each gets a .tone-<name> CSS class that overrides color variables."
+  },
+
+  "ai_style": {
+    "preferred_styles": [],
+    "_preferred_styles_comment": "Style keywords for AI image generation prompts.",
+    "color_constraints": "",
+    "_color_constraints_comment": "Natural language description of color rules for AI image gen.",
+    "negative": [],
+    "_negative_comment": "Words to explicitly exclude from AI image prompts."
+  },
+
+  "text_render": {
+    "page_size": [1080, 1440],
+    "_page_size_comment": "[width, height] in pixels. Standard XHS/social card is 1080x1440.",
+    "body_font_size": "38px",
+    "_body_font_size_comment": "Base body text size.",
+    "dropcap": false,
+    "_dropcap_comment": "Enable decorative first-letter dropcap on first paragraph.",
+    "golden_sentence": false,
+    "_golden_sentence_comment": "Enable .highlight class for pull-quote styling with colored left border.",
+    "background_texture": null,
+    "_background_texture_comment": "Path to background texture image (relative to brands dir), or null for solid color.",
+    "mold_default": "multi-card",
+    "_mold_default_comment": "Default layout mold: 'multi-card', 'infograph', 'single-page', etc."
+  },
+
+  "watermark": {
+    "enabled": true,
+    "content": "Brand Name",
+    "_content_comment": "Text displayed as watermark.",
+    "position": "bottom-right",
+    "_position_comment": "Watermark position: 'bottom-right', 'bottom-left', 'bottom-center'.",
+    "opacity": 0.5,
+    "_opacity_comment": "Watermark opacity from 0 to 1."
+  },
+
+  "signature": {
+    "author": "Author Name",
+    "_author_comment": "Author name shown in header/footer.",
+    "avatar": null,
+    "_avatar_comment": "Path to avatar image, or null if no avatar."
+  }
+}
