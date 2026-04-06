@@ -86,6 +86,24 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 | ![](assets/infographic-layouts/structural-breakdown.png) | | |
 | **structural-breakdown** | | |
 
+**同样 21 种布局，手绘中文版：**
+
+| | | |
+|---|---|---|
+| ![](assets/infographic-cn/bento-grid.png) | ![](assets/infographic-cn/bridge.png) | ![](assets/infographic-cn/circular-flow.png) |
+| ![](assets/infographic-cn/funnel.png) | ![](assets/infographic-cn/iceberg.png) | ![](assets/infographic-cn/hierarchical-layers.png) |
+| ![](assets/infographic-cn/hub-spoke.png) | ![](assets/infographic-cn/dashboard.png) | ![](assets/infographic-cn/tree-branching.png) |
+| ![](assets/infographic-cn/venn-diagram.png) | ![](assets/infographic-cn/jigsaw.png) | ![](assets/infographic-cn/winding-roadmap.png) |
+
+**同样 21 种布局，金色粒子暗黑概念艺术风：**
+
+| | | |
+|---|---|---|
+| ![](assets/infographic-gold/bento-grid.png) | ![](assets/infographic-gold/bridge.png) | ![](assets/infographic-gold/circular-flow.png) |
+| ![](assets/infographic-gold/funnel.png) | ![](assets/infographic-gold/iceberg.png) | ![](assets/infographic-gold/hierarchical-layers.png) |
+| ![](assets/infographic-gold/hub-spoke.png) | ![](assets/infographic-gold/dashboard.png) | ![](assets/infographic-gold/tree-branching.png) |
+| ![](assets/infographic-gold/venn-diagram.png) | ![](assets/infographic-gold/jigsaw.png) | ![](assets/infographic-gold/winding-roadmap.png) |
+
 每种布局可搭配 20 种视觉风格：手工质感、古典学术、黏土动画、赛博霓虹、宜家说明书、折纸、像素艺术、技术蓝图等。
 
 ---
