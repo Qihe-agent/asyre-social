@@ -29,22 +29,20 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 
 ## AI 风格库（Mode A）
 
-12 种视觉风格，同一主题「AI 改变商业」的不同演绎：
+20 种视觉风格，同一主题「AI 改变商业」的不同演绎：
 
-| | |
-|---|---|
-| ![cute](assets/styles/cute-ai-business.png) | ![fresh](assets/styles/fresh-ai-business.png) |
-| **cute** — 甜美可爱少女风 | **fresh** — 清新自然 |
-| ![warm](assets/styles/warm-ai-business.png) | ![bold](assets/styles/bold-ai-business.png) |
-| **warm** — 温暖亲切 | **bold** — 高冲击力 |
-| ![minimal](assets/styles/minimal-ai-business.png) | ![retro](assets/styles/retro-ai-business.png) |
-| **minimal** — 极简高级 | **retro** — 复古怀旧 |
-| ![pop](assets/styles/pop-ai-business.png) | ![notion](assets/styles/notion-ai-business.png) |
-| **pop** — 活力四射 | **notion** — 极简线条画，知性 |
-| ![chalkboard](assets/styles/chalkboard-ai-business.png) | ![study-notes](assets/styles/study-notes-ai-business.png) |
-| **chalkboard** — 粉笔黑板风 | **study-notes** — 手写笔记照片风 |
-| ![screen-print](assets/styles/screen-print-ai-business.png) | ![tuisheng](assets/styles/tuisheng-ai-business.png) |
-| **screen-print** — 丝网印刷海报风 | **tuisheng** — 暗色赛博学术风 |
+| | | | |
+|---|---|---|---|
+| ![](assets/styles/cute-ai-business.png) | ![](assets/styles/fresh-ai-business.png) | ![](assets/styles/warm-ai-business.png) | ![](assets/styles/bold-ai-business.png) |
+| **cute** 甜美 | **fresh** 清新 | **warm** 温暖 | **bold** 冲击 |
+| ![](assets/styles/minimal-ai-business.png) | ![](assets/styles/retro-ai-business.png) | ![](assets/styles/pop-ai-business.png) | ![](assets/styles/notion-ai-business.png) |
+| **minimal** 极简 | **retro** 复古 | **pop** 活力 | **notion** 知性 |
+| ![](assets/styles/chalkboard-ai-business.png) | ![](assets/styles/study-notes-ai-business.png) | ![](assets/styles/screen-print-ai-business.png) | ![](assets/styles/tuisheng-ai-business.png) |
+| **chalkboard** 黑板 | **study-notes** 笔记 | **screen-print** 海报 | **tuisheng** 墨金 |
+| ![](assets/styles/kawaii.png) | ![](assets/styles/pixel-art.png) | ![](assets/styles/claymation.png) | ![](assets/styles/origami.png) |
+| **kawaii** 卡通 | **pixel-art** 像素 | **claymation** 黏土 | **origami** 折纸 |
+| ![](assets/styles/cyberpunk-neon.png) | ![](assets/styles/storybook-watercolor.png) | ![](assets/styles/ikea-manual.png) | ![](assets/styles/morandi-journal.png) |
+| **cyberpunk** 霓虹 | **watercolor** 水彩 | **ikea** 说明书 | **morandi** 莫兰迪 |
 
 每种风格可与 8 种布局（稀疏、平衡、密集、列表、对比、流程、脑图、象限）自由组合，另有 23+ 场景预设。
 

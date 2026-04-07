@@ -29,22 +29,20 @@ The AI automatically selects the best mode based on your content — or you can 
 
 ## AI Style Gallery (Mode A)
 
-12 visual styles for AI-generated infographics. Same topic — *"AI Transforms Business"* — rendered in every style:
+20 visual styles for AI-generated infographics. Same topic — *"AI Transforms Business"* — rendered in every style:
 
-| | |
-|---|---|
-| ![cute](assets/styles/cute-ai-business.png) | ![fresh](assets/styles/fresh-ai-business.png) |
-| **cute** — Sweet, adorable, girly | **fresh** — Clean, refreshing, natural |
-| ![warm](assets/styles/warm-ai-business.png) | ![bold](assets/styles/bold-ai-business.png) |
-| **warm** — Cozy, friendly, approachable | **bold** — High impact, attention-grabbing |
-| ![minimal](assets/styles/minimal-ai-business.png) | ![retro](assets/styles/retro-ai-business.png) |
-| **minimal** — Ultra-clean, sophisticated | **retro** — Vintage, nostalgic, trendy |
-| ![pop](assets/styles/pop-ai-business.png) | ![notion](assets/styles/notion-ai-business.png) |
-| **pop** — Vibrant, energetic, eye-catching | **notion** — Minimalist line art, intellectual |
-| ![chalkboard](assets/styles/chalkboard-ai-business.png) | ![study-notes](assets/styles/study-notes-ai-business.png) |
-| **chalkboard** — Chalk on blackboard, educational | **study-notes** — Handwritten photo style |
-| ![screen-print](assets/styles/screen-print-ai-business.png) | ![tuisheng](assets/styles/tuisheng-ai-business.png) |
-| **screen-print** — Bold poster art, halftone textures | **tuisheng** — Dark cyber-academic, gold/teal |
+| | | | |
+|---|---|---|---|
+| ![](assets/styles/cute-ai-business.png) | ![](assets/styles/fresh-ai-business.png) | ![](assets/styles/warm-ai-business.png) | ![](assets/styles/bold-ai-business.png) |
+| **cute** | **fresh** | **warm** | **bold** |
+| ![](assets/styles/minimal-ai-business.png) | ![](assets/styles/retro-ai-business.png) | ![](assets/styles/pop-ai-business.png) | ![](assets/styles/notion-ai-business.png) |
+| **minimal** | **retro** | **pop** | **notion** |
+| ![](assets/styles/chalkboard-ai-business.png) | ![](assets/styles/study-notes-ai-business.png) | ![](assets/styles/screen-print-ai-business.png) | ![](assets/styles/tuisheng-ai-business.png) |
+| **chalkboard** | **study-notes** | **screen-print** | **tuisheng** |
+| ![](assets/styles/kawaii.png) | ![](assets/styles/pixel-art.png) | ![](assets/styles/claymation.png) | ![](assets/styles/origami.png) |
+| **kawaii** | **pixel-art** | **claymation** | **origami** |
+| ![](assets/styles/cyberpunk-neon.png) | ![](assets/styles/storybook-watercolor.png) | ![](assets/styles/ikea-manual.png) | ![](assets/styles/morandi-journal.png) |
+| **cyberpunk-neon** | **storybook-watercolor** | **ikea-manual** | **morandi-journal** |
 
 Each style combines with 8 layouts (sparse, balanced, dense, list, comparison, flow, mindmap, quadrant) and 23+ presets for quick setup.
 
