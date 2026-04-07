@@ -267,18 +267,18 @@ This generates `brand.json` + `base.css` + `ai-style.md` — a complete visual s
 ### Claude Code
 
 ```bash
-git clone https://github.com/Qihe-agent/asyre-social ~/.claude/skills/asyre-social
+git clone https://github.com/Qihe-agent/asyre-graphic ~/.claude/skills/asyre-graphic
 ```
 
 Then use:
 ```
-/asyre-social
+/asyre-graphic
 ```
 
 ### OpenClaw
 
 ```bash
-clawhub install asyre-social
+clawhub install asyre-graphic
 ```
 
 ### Other AI Tools
@@ -290,11 +290,11 @@ Use `SKILL.md` as a system prompt and reference the supporting files.
 ## Usage
 
 ```bash
-/asyre-social [topic or content]                     # Auto-detect mode
-/asyre-social article.md --mode=text                 # Force text layout
-/asyre-social --mode=ai --preset=knowledge-card      # AI with preset
-/asyre-social --brand=tuisheng                       # Use specific brand
-/asyre-social article.md --yes                       # Non-interactive
+/asyre-graphic [topic or content]                     # Auto-detect mode
+/asyre-graphic article.md --mode=text                 # Force text layout
+/asyre-graphic --mode=ai --preset=knowledge-card      # AI with preset
+/asyre-graphic --brand=tuisheng                       # Use specific brand
+/asyre-graphic article.md --yes                       # Non-interactive
 ```
 
 ---
@@ -302,7 +302,7 @@ Use `SKILL.md` as a system prompt and reference the supporting files.
 ## File Structure
 
 ```
-asyre-social/
+asyre-graphic/
 ├── SKILL.md                         # Core workflow (AI reads this)
 ├── openclaw.plugin.json             # OpenClaw plugin config
 ├── brands/
@@ -403,7 +403,7 @@ Content is king. With the right content + brand system, you can create professio
 ### Workflow Example
 
 ```
-1. /asyre-social --brand=mojin
+1. /asyre-graphic --brand=mojin
    → Load mojin brand (dark gold cyber style)
 
 2. Paste your article or data
