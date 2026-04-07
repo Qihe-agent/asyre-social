@@ -10,7 +10,7 @@
 
 *The moment you finish writing, the visuals should already be ready.*
 
-![License](https://img.shields.io/badge/License-MIT-blue)
+![License](https://img.shields.io/badge/License-Source%20Available-blue)
 ![AI Styles](https://img.shields.io/badge/AI%20Styles-20-brightgreen)
 ![Infographic Layouts](https://img.shields.io/badge/Infographic%20Layouts-23-yellow)
 ![Infographic Styles](https://img.shields.io/badge/Infographic%20Styles-20-orange)
@@ -423,7 +423,7 @@ Content is king. With the right content + brand system, you can create professio
 
 ## License
 
-MIT License. See [LICENSE](LICENSE).
+Asyre Source Available License. Free for personal use and learning. Commercial use requires a separate license. See [LICENSE](LICENSE).
 
 ---
 

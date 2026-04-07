@@ -10,7 +10,7 @@
 
 *写完文章的那一刻，配图就该准备好了。*
 
-![License](https://img.shields.io/badge/License-MIT-blue)
+![License](https://img.shields.io/badge/License-Source%20Available-blue)
 ![AI Styles](https://img.shields.io/badge/AI%20%E9%A3%8E%E6%A0%BC-20-brightgreen)
 ![Infographic Layouts](https://img.shields.io/badge/%E4%BF%A1%E6%81%AF%E5%9B%BE%E5%B8%83%E5%B1%80-23-yellow)
 ![Infographic Styles](https://img.shields.io/badge/%E4%BF%A1%E6%81%AF%E5%9B%BE%E9%A3%8E%E6%A0%BC-20-orange)
@@ -410,7 +410,7 @@ asyre-graphic/
 
 ## License
 
-MIT License. 详见 [LICENSE](LICENSE)。
+Asyre Source Available License. 个人使用和学习免费，商用需单独授权。详见 [LICENSE](LICENSE)。
 
 ---
 
