@@ -21,6 +21,42 @@
 
 ---
 
+## Why Great Content Needs Great Visuals
+
+A deep article published as plain text on social media — nobody stops to read it.
+
+**Content determines depth. Visuals determine reach.** The same insight, presented as a well-designed visual card, can boost read-through rates 3-5x. But the traditional approach requires designers, tool chains, and endless revisions — a cost that stops most creators.
+
+Asyre Social has one goal: **you write great content, the system handles the visuals.**
+
+### How Many Visual Combinations?
+
+| Dimension | Options | Description |
+|-----------|---------|-------------|
+| AI Styles | 20 | cute, notion, cyberpunk, etc. |
+| XHS Layouts | 8 | sparse, dense, flow, mindmap, etc. |
+| Infographic Layouts | 23 | funnel, iceberg, bridge, SWOT, etc. |
+| Infographic Styles | 20 | handmade, pixel, clay, blueprint, etc. |
+| Text Molds | 6 | multi-card, long, infograph, comic, etc. |
+| Density Levels | 6 | sparse → ultra |
+| Brands | 5+ | mojin, suqi, nuanhe, zhusa, qingci + custom |
+| Embed Techniques | 10 | hero, clip-path, grid, filters, overlay, etc. |
+
+**The math:**
+
+- **Mode A single card**: 20 styles × 8 layouts = **160** XHS card combinations
+- **Mode A infographic**: 23 layouts × 20 styles = **460** infographic combinations
+- **Mode B precision**: 6 molds × 6 densities × 5 brands = **180** layout combinations
+- **Mode C hybrid**: 160 covers × 180 content pages × 10 embed techniques = **288,000+** hybrid combinations
+
+> **Total: over 280,000 distinct visual combinations.**
+
+And these are just the presets. The AI can also generate **completely custom styles on the fly** based on your content — unique visuals that don't exist in any preset library. Describe the feeling you want, and the system creates it.
+
+Every new brand, style, or layout you add multiplies the total. That's the power of modular design.
+
+---
+
 ## Three Modes, One Skill
 
 | Mode | Engine | Best For | Output |
