@@ -84,23 +84,31 @@ High-density information visualization — single-image infographics with struct
 | ![](assets/infographic-layouts/structural-breakdown.png) | ![](assets/infographic-layouts/swot-analysis.png) | ![](assets/infographic-layouts/radar-chart.png) |
 | **structural-breakdown** | **swot-analysis** | **radar-chart** |
 
-**Same 21 layouts in craft-handmade Chinese style:**
+**Same layouts in craft-handmade Chinese style:**
 
 | | | |
 |---|---|---|
 | ![](assets/infographic-cn/bento-grid.png) | ![](assets/infographic-cn/bridge.png) | ![](assets/infographic-cn/circular-flow.png) |
+| **bento-grid** | **bridge** | **circular-flow** |
 | ![](assets/infographic-cn/funnel.png) | ![](assets/infographic-cn/iceberg.png) | ![](assets/infographic-cn/hierarchical-layers.png) |
+| **funnel** | **iceberg** | **hierarchical-layers** |
 | ![](assets/infographic-cn/hub-spoke.png) | ![](assets/infographic-cn/dashboard.png) | ![](assets/infographic-cn/tree-branching.png) |
+| **hub-spoke** | **dashboard** | **tree-branching** |
 | ![](assets/infographic-cn/venn-diagram.png) | ![](assets/infographic-cn/jigsaw.png) | ![](assets/infographic-cn/winding-roadmap.png) |
+| **venn-diagram** | **jigsaw** | **winding-roadmap** |
 
-**Same 21 layouts in golden particle dark concept art style:**
+**Same layouts in golden particle dark concept art style:**
 
 | | | |
 |---|---|---|
 | ![](assets/infographic-gold/bento-grid.png) | ![](assets/infographic-gold/bridge.png) | ![](assets/infographic-gold/circular-flow.png) |
+| **bento-grid** | **bridge** | **circular-flow** |
 | ![](assets/infographic-gold/funnel.png) | ![](assets/infographic-gold/iceberg.png) | ![](assets/infographic-gold/hierarchical-layers.png) |
+| **funnel** | **iceberg** | **hierarchical-layers** |
 | ![](assets/infographic-gold/hub-spoke.png) | ![](assets/infographic-gold/dashboard.png) | ![](assets/infographic-gold/tree-branching.png) |
+| **hub-spoke** | **dashboard** | **tree-branching** |
 | ![](assets/infographic-gold/venn-diagram.png) | ![](assets/infographic-gold/jigsaw.png) | ![](assets/infographic-gold/winding-roadmap.png) |
+| **venn-diagram** | **jigsaw** | **winding-roadmap** |
 
 Each layout combines with 20 visual styles: craft-handmade, aged-academia, claymation, cyberpunk-neon, ikea-manual, origami, pixel-art, technical-schematic, and more.
 
