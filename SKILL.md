@@ -479,21 +479,39 @@ Auto-detection rules:
 
 | 场景 | 模型 | 原因 |
 |------|------|------|
-| 封面、概念图、氛围图 | `gemini-3-pro-image-preview` (Pro) | 视觉冲击力强，画面质量高 |
-| 文字密集的信息图/知识卡 | `gemini-3.1-flash-image-preview` (Flash) | 中文渲染精准，字体不扭曲 |
-| 三段拼接的 panel | `gemini-3-pro-image-preview` (Pro) | 每 panel 文字量少，Pro 冲击力更强 |
+| 封面、概念图、氛围图（无文字） | `gemini-3-pro-image-preview` (Pro) | 视觉冲击力强，画面质量高 |
+| 金色粒子/暗黑概念艺术（无文字） | `gemini-3-pro-image-preview` (Pro) | 粒子效果、发光边缘 Pro 远胜 Flash |
+| 三段拼接 panel（少量文字） | `gemini-3-pro-image-preview` (Pro) | 每 panel 文字量少，Pro 冲击力更强 |
+| 中文信息图/知识卡（有文字） | `gemini-3.1-flash-image-preview` (Flash) | 中文渲染精准，Pro 中文会乱码 |
+| 英文信息图（有文字） | 两者皆可，Pro 优先 | 英文渲染两个模型都稳定 |
 
 **自动判断规则**：
-- 图中文字 ≤ 20 字（封面/概念图）→ Pro
-- 图中文字 > 20 字（信息图/知识卡）→ Flash
+- 图中无文字（概念艺术、氛围底图）→ Pro
+- 图中有中文 → Flash（无论文字多少，Pro 中文不稳定）
+- 图中仅英文 → Pro
 - `--model` flag 可手动覆盖
 
-**中文渲染强化 prompt**（Flash 模型时追加）：
+#### Chinese Text Enhancement（中文渲染强化）
+
+**Flash 模型生成中文信息图时，必须在 prompt 末尾追加以下指令：**
+
 ```
-IMPORTANT: All Chinese characters must be sharp, clear and correctly
-rendered with proper stroke structure. Use bold serif (Song/Ming) font
-for Chinese titles, clean sans-serif for body text.
+CREATIVE FREEDOM: Be bold and expressive with the visual design — use
+unexpected color combinations, playful illustrations, creative icons,
+dynamic asymmetric layouts, overlapping elements, decorative details.
+Make it visually rich, fun, and full of personality.
+
+CHINESE TEXT QUALITY (apply AFTER creative design is complete):
+- All Chinese characters must be correctly formed with proper strokes
+- No garbled, merged, or invented characters
+- Use clean, bold Chinese font rendering — legible even at small sizes
+- If a character cannot render clearly, simplify or omit — never render garbled text
 ```
+
+**关键原则**：
+- 先声明创意自由，再约束文字质量 — 顺序不能反，否则模型会因为怕出错而收缩画面
+- 列出内容中所有关键中文术语，让模型 double-check
+- 这条指令只对 Flash 生效；Pro 生成的图不含文字，不需要
 
 
 ---
