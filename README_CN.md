@@ -1,8 +1,14 @@
 <div align="center">
 
-# Asyre Social
+# Asyre Graphic
 
 **统一社媒内容创作 — AI 图片生成 + 精排版引擎 + 品牌管理。**
+
+*好内容值得好画面。28 万种视觉组合，一键出图。*
+
+*内容决定深度，配图决定触达。*
+
+*写完文章的那一刻，配图就该准备好了。*
 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![AI Styles](https://img.shields.io/badge/AI%20%E9%A3%8E%E6%A0%BC-20-brightgreen)

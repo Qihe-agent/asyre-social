@@ -1,8 +1,14 @@
 <div align="center">
 
-# Asyre Social
+# Asyre Graphic
 
 **Unified social media content creation — AI image generation + precision text layout + brand management.**
+
+*Great content deserves great visuals. 280,000+ combinations, one command.*
+
+*Content determines depth. Visuals determine reach.*
+
+*The moment you finish writing, the visuals should already be ready.*
 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![AI Styles](https://img.shields.io/badge/AI%20Styles-20-brightgreen)
