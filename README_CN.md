@@ -168,16 +168,18 @@ AI 根据内容自动选择最佳模式 — 也可以用 `--mode=ai`、`--mode=t
 
 ---
 
-## 混合模式（Mode C）
+## 混合模式（Mode C）— AI 概念图 × HTML 精排版
 
-AI 生成封面（视觉冲击）+ 精排版内容页（文字清晰）。两种引擎的最佳组合。
+AI 生成的概念艺术直接嵌入像素级精准的 HTML 卡片。10 种嵌入技法，完全融合品牌系统。
 
 | | |
 |---|---|
-| ![cover](assets/mode-c/mode-c-cover.png) | ![content](assets/mode-c/content-01.png) |
-| **第 1 页：AI 封面**（Gemini Pro） | **第 2 页：精排版内容**（Playwright） |
+| ![dark](assets/mode-c/embed-showcase-dark.png) | ![light](assets/mode-c/embed-showcase-light.png) |
+| **墨金 暗色主题** | **素启 亮色主题** |
 
-*封面用金色锤子的概念艺术隐喻。内容页使用相同的 tuisheng 品牌色彩，确保 AI 与 HTML 渲染的视觉一致性。*
+![original](assets/mode-c/embed-showcase-original.png)
+
+*10 种技法：Hero 背景图、异形裁切、图片网格、CSS 滤镜、文字叠加、内联 SVG、渐变边框、内联配图、圆形头像、浮动卡片。全部通过 Playwright 渲染，AI 图片以 base64 内嵌。*
 
 ---
 

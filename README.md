@@ -168,16 +168,18 @@ Features: automatic tone detection, data cards, comparison tables, golden senten
 
 ---
 
-## Hybrid Mode (Mode C)
+## Hybrid Mode (Mode C) — AI Images × HTML Precision Layout
 
-AI-generated cover for visual impact + precision layout for text-heavy content pages. Best of both worlds.
+AI-generated concept art embedded directly into pixel-perfect HTML cards. 10 embedding techniques, fully integrated with the brand system.
 
 | | |
 |---|---|
-| ![cover](assets/mode-c/mode-c-cover.png) | ![content](assets/mode-c/content-01.png) |
-| **Page 1: AI cover** (Gemini Pro) | **Page 2: Text layout** (Playwright) |
+| ![dark](assets/mode-c/embed-showcase-dark.png) | ![light](assets/mode-c/embed-showcase-light.png) |
+| **墨金 Dark Theme** | **素启 Light Theme** |
 
-*Cover uses concept art with golden hammer metaphor. Content pages use the same tuisheng brand colors for visual consistency across AI and HTML rendering.*
+![original](assets/mode-c/embed-showcase-original.png)
+
+*10 techniques: Hero background, clip-path shapes, grid gallery, CSS filters, text overlay, inline SVG, gradient border, inline figure, avatar circle, floating card. All rendered via Playwright with AI-generated images embedded as base64.*
 
 ---
 
