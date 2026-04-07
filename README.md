@@ -5,9 +5,15 @@
 **Unified social media content creation — AI image generation + precision text layout + brand management.**
 
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![Styles](https://img.shields.io/badge/AI%20Styles-12-brightgreen)
-![Layouts](https://img.shields.io/badge/Layouts-8-orange)
-![Brands](https://img.shields.io/badge/Brands-3%2B-blueviolet)
+![AI Styles](https://img.shields.io/badge/AI%20Styles-20-brightgreen)
+![Infographic Layouts](https://img.shields.io/badge/Infographic%20Layouts-23-yellow)
+![Infographic Styles](https://img.shields.io/badge/Infographic%20Styles-20-orange)
+![Text Molds](https://img.shields.io/badge/Text%20Molds-6-red)
+![Density Levels](https://img.shields.io/badge/Density-6%20Levels-purple)
+![Brands](https://img.shields.io/badge/Brands-5%20%E5%9B%BD%E9%A3%8E-blueviolet)
+![Embed Techniques](https://img.shields.io/badge/Embed%20Tech-10-teal)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-Ready-black)
+![OpenClaw](https://img.shields.io/badge/OpenClaw-Compatible-green)
 
 [**中文版**](README_CN.md)
 
@@ -285,10 +291,93 @@ asyre-social/
     └── page.html                    # HTML page template
 ```
 
-## Credits
+## How It Works
 
-- **[baoyu-xhs-images](https://github.com/JimLiu/baoyu-skills)** by JimLiu — XHS infographic generation engine
-- **Asyre Design System** — brand management and anti-AI-slop quality gates
+**Step 1: Create Your Brand** — Answer 3 questions (audience, personality, aesthetic) and get a complete visual system: colors, fonts, AI generation constraints, HTML rendering CSS.
+
+**Step 2: Provide Content** — Article, data, talking points, or just a topic. The AI analyzes content density and recommends the best mode.
+
+**Step 3: Get Results** — Mode A generates AI infographics, Mode B renders pixel-perfect cards, Mode C combines both. All in your brand's visual identity.
+
+## 30 Use Cases
+
+Content is king. With the right content + brand system, you can create professional visuals for any scenario:
+
+### Personal Brand & XHS (小红书)
+
+| # | Scenario | Mode | Description |
+|---|----------|------|-------------|
+| 1 | 知识分享卡片 | B | Turn your insights into multi-page card series with data cards and highlights |
+| 2 | 个人品牌封面 | A | AI-generated branded cover for your XHS profile |
+| 3 | 干货长图 | B | Single long-scroll knowledge card with typography and charts |
+| 4 | 避坑指南 | A+B | Bold style cover + detailed text breakdown |
+| 5 | 读书笔记 | B | Study-notes style with highlights and annotations |
+| 6 | 个人故事系列 | C | AI atmosphere cover + warm text content pages |
+
+### Business & Client Deliverables
+
+| # | Scenario | Mode | Description |
+|---|----------|------|-------------|
+| 7 | 客户提案封面 | A | Professional infographic in corporate brand |
+| 8 | 商业计划摘要 | B | Dense card with data cards, comparison tables, action list |
+| 9 | 竞品分析 | A | Binary-comparison or SWOT infographic layout |
+| 10 | 季度报告卡片 | B | Dashboard-style metrics with branded CSS |
+| 11 | 产品发布海报 | A | Screen-print or bold style poster |
+| 12 | 投资者简报 | C | AI concept cover + data-rich content pages |
+
+### Education & Tutorials
+
+| # | Scenario | Mode | Description |
+|---|----------|------|-------------|
+| 13 | 教程步骤图 | A | Chalkboard or flow-layout infographic |
+| 14 | 知识地图 | A | Hub-spoke or tree-branching layout |
+| 15 | 课程笔记卡 | B | Study-notes density with golden sentences |
+| 16 | 考试复习卡 | B | Ultra-dense card with all key points |
+| 17 | 概念解释图 | A | Iceberg or bridge layout for concept visualization |
+| 18 | 学习路线图 | A | Winding-roadmap or linear-progression layout |
+
+### Marketing & Social Media
+
+| # | Scenario | Mode | Description |
+|---|----------|------|-------------|
+| 19 | 产品对比图 | A | Comparison-table or binary-comparison |
+| 20 | 活动宣传海报 | A | Bold or cyberpunk-neon style poster |
+| 21 | 数据驱动故事 | C | AI data visualization + text analysis |
+| 22 | 用户证言卡 | B | Quote card with avatar circle embed |
+| 23 | 品牌价值观 | B | Sparse centered quote in brand style |
+| 24 | 社媒内容日历 | A | Periodic-table layout for content planning |
+
+### Deep Content & Thought Leadership
+
+| # | Scenario | Mode | Description |
+|---|----------|------|-------------|
+| 25 | 深度分析文章 | B | Multi-page dense cards with full article |
+| 26 | 行业趋势报告 | C | AI concept art + data tables + action list |
+| 27 | 框架/模型图 | A | Hierarchical-layers or structural-breakdown |
+| 28 | 观点输出卡 | B | Medium density with highlight quote |
+| 29 | 圆桌讨论摘要 | B | Multi-card with different speaker sections |
+| 30 | 年度复盘 | C | AI cover + timeline + metrics + reflection |
+
+### Workflow Example
+
+```
+1. /asyre-social --brand=mojin
+   → 加载墨金品牌（暗金赛博风）
+
+2. 粘贴你的文章或数据
+   → AI 分析内容：2000字深度文章 → 推荐 Mode B
+
+3. 确认方案
+   → 策略 B (信息密集) / 密度 Dense / 品牌 墨金
+
+4. 生成 4 页卡片
+   → 01.png 标题页（sparse）
+   → 02.png 数据页（balanced + 数据卡片）
+   → 03.png 对比页（medium + 对比表）
+   → 04.png 行动页（dense + 行动清单）
+
+5. 发布到小红书
+```
 
 ## License
 
@@ -301,7 +390,5 @@ MIT License. See [LICENSE](LICENSE).
 **Stop making generic content. Start making branded impressions.**
 
 ![Asyre](https://img.shields.io/badge/Asyre-Social-black?style=for-the-badge)
-
-Powered by [**Asyre**](https://github.com/Qihe-agent)
 
 </div>

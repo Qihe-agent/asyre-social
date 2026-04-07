@@ -5,9 +5,15 @@
 **统一社媒内容创作 — AI 图片生成 + 精排版引擎 + 品牌管理。**
 
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![Styles](https://img.shields.io/badge/AI%20Styles-12-brightgreen)
-![Layouts](https://img.shields.io/badge/Layouts-8-orange)
-![Brands](https://img.shields.io/badge/Brands-3%2B-blueviolet)
+![AI Styles](https://img.shields.io/badge/AI%20%E9%A3%8E%E6%A0%BC-20-brightgreen)
+![Infographic Layouts](https://img.shields.io/badge/%E4%BF%A1%E6%81%AF%E5%9B%BE%E5%B8%83%E5%B1%80-23-yellow)
+![Infographic Styles](https://img.shields.io/badge/%E4%BF%A1%E6%81%AF%E5%9B%BE%E9%A3%8E%E6%A0%BC-20-orange)
+![Text Molds](https://img.shields.io/badge/%E6%8E%92%E7%89%88%E6%A8%A1%E5%85%B7-6-red)
+![Density](https://img.shields.io/badge/%E5%AF%86%E5%BA%A6-6%20%E6%A1%A3-purple)
+![Brands](https://img.shields.io/badge/%E5%93%81%E7%89%8C-5%20%E5%9B%BD%E9%A3%8E-blueviolet)
+![Embed](https://img.shields.io/badge/%E5%B5%8C%E5%85%A5%E6%8A%80%E6%B3%95-10-teal)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-Ready-black)
+![OpenClaw](https://img.shields.io/badge/OpenClaw-%E5%85%BC%E5%AE%B9-green)
 
 [**English**](README.md)
 
@@ -272,10 +278,93 @@ asyre-social/
 └── templates/                       # HTML 模板
 ```
 
-## 致谢
+## 使用流程
 
-- **[baoyu-xhs-images](https://github.com/JimLiu/baoyu-skills)** by JimLiu — 小红书信息图生成引擎
-- **Asyre Design System** — 品牌管理与反 AI slop 质量体系
+**第一步：创建品牌** — 回答 3 个问题（受众、个性、美学方向），自动生成完整视觉系统：配色、字体、AI 生图约束、HTML 渲染 CSS。
+
+**第二步：提供内容** — 文章、数据、要点，或者只给一个主题。AI 分析内容密度，推荐最佳模式。
+
+**第三步：拿到结果** — Mode A 生成 AI 信息图，Mode B 渲染精排版卡片，Mode C 两者结合。全部自动套用你的品牌视觉。
+
+## 30 个使用场景
+
+内容为王。有了好内容 + 品牌系统，任何场景都能出专业级视觉：
+
+### 个人品牌 & 小红书
+
+| # | 场景 | 模式 | 说明 |
+|---|------|------|------|
+| 1 | 知识分享卡片 | B | 把洞察变成多页卡片系列，数据卡+金句高亮 |
+| 2 | 个人品牌封面 | A | AI 生成品牌风格封面图 |
+| 3 | 干货长图 | B | 单张长图知识卡，排版精美+图表 |
+| 4 | 避坑指南 | A+B | 冲击力封面 + 详细文字拆解 |
+| 5 | 读书笔记 | B | 笔记风格，高亮+批注 |
+| 6 | 个人故事系列 | C | AI 氛围封面 + 暖色文字内容页 |
+
+### 商务 & 客户交付
+
+| # | 场景 | 模式 | 说明 |
+|---|------|------|------|
+| 7 | 客户提案封面 | A | 企业品牌风格的专业信息图 |
+| 8 | 商业计划摘要 | B | 密集卡片：数据卡+对比表+行动清单 |
+| 9 | 竞品分析 | A | 二元对比或 SWOT 信息图 |
+| 10 | 季度报告卡片 | B | 仪表盘风格指标展示 |
+| 11 | 产品发布海报 | A | 海报风或大胆风格 |
+| 12 | 投资者简报 | C | AI 概念封面 + 数据密集内容页 |
+
+### 教育 & 教程
+
+| # | 场景 | 模式 | 说明 |
+|---|------|------|------|
+| 13 | 教程步骤图 | A | 黑板风或流程布局信息图 |
+| 14 | 知识地图 | A | 中心辐射或树状分支布局 |
+| 15 | 课程笔记卡 | B | 笔记密度+金句检测 |
+| 16 | 考试复习卡 | B | 极密模式，所有要点塞满一页 |
+| 17 | 概念解释图 | A | 冰山或桥梁布局做概念可视化 |
+| 18 | 学习路线图 | A | 蜿蜒路线或时间线布局 |
+
+### 营销 & 社媒
+
+| # | 场景 | 模式 | 说明 |
+|---|------|------|------|
+| 19 | 产品对比图 | A | 对比表或二元对比布局 |
+| 20 | 活动宣传海报 | A | 大胆风或赛博霓虹风格 |
+| 21 | 数据驱动故事 | C | AI 数据可视化 + 文字分析 |
+| 22 | 用户证言卡 | B | 引用卡片+圆形头像嵌入 |
+| 23 | 品牌价值观 | B | 稀疏居中金句，品牌风格 |
+| 24 | 社媒内容日历 | A | 元素周期表布局做内容规划 |
+
+### 深度内容 & 思想领导力
+
+| # | 场景 | 模式 | 说明 |
+|---|------|------|------|
+| 25 | 深度分析文章 | B | 多页密集卡片，完整长文排版 |
+| 26 | 行业趋势报告 | C | AI 概念艺术 + 数据表 + 行动清单 |
+| 27 | 框架/模型图 | A | 层级金字塔或结构分解布局 |
+| 28 | 观点输出卡 | B | 微密密度+高亮引用 |
+| 29 | 圆桌讨论摘要 | B | 多卡片，不同发言者分区 |
+| 30 | 年度复盘 | C | AI 封面 + 时间线 + 指标 + 反思 |
+
+### 完整工作流示例
+
+```
+1. /asyre-social --brand=mojin
+   → 加载墨金品牌（暗金赛博风）
+
+2. 粘贴你的文章或数据
+   → AI 分析内容：2000字深度文章 → 推荐 Mode B
+
+3. 确认方案
+   → 策略 B (信息密集) / 密度 Dense / 品牌 墨金
+
+4. 生成 4 页卡片
+   → 01.png 标题页（稀疏）
+   → 02.png 数据页（平衡 + 数据卡片）
+   → 03.png 对比页（微密 + 对比表）
+   → 04.png 行动页（密集 + 行动清单）
+
+5. 发布到小红书
+```
 
 ## License
 
@@ -288,7 +377,5 @@ MIT License. 详见 [LICENSE](LICENSE)。
 **别再做千篇一律的内容。做有品牌感的东西。**
 
 ![Asyre](https://img.shields.io/badge/Asyre-Social-black?style=for-the-badge)
-
-Powered by [**Asyre**](https://github.com/Qihe-agent)
 
 </div>
