@@ -10,7 +10,7 @@
 ![Infographic Styles](https://img.shields.io/badge/Infographic%20Styles-20-orange)
 ![Text Molds](https://img.shields.io/badge/Text%20Molds-6-red)
 ![Density Levels](https://img.shields.io/badge/Density-6%20Levels-purple)
-![Brands](https://img.shields.io/badge/Brands-5%20%E5%9B%BD%E9%A3%8E-blueviolet)
+![Brands](https://img.shields.io/badge/Brands-5-blueviolet)
 ![Embed Techniques](https://img.shields.io/badge/Embed%20Tech-10-teal)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-Ready-black)
 ![OpenClaw](https://img.shields.io/badge/OpenClaw-Compatible-green)
@@ -128,35 +128,35 @@ Pixel-perfect text rendering — HTML/CSS + Playwright → 1080×1440 PNG. No AI
 
 Same content, *"AI Transforms Business"*, rendered across all brand/density combinations:
 
-**墨金 (Dark Cyber-Academic)**
+**Mojin — Dark Cyber-Academic**
 
 | | | | | | |
 |---|---|---|---|---|---|
 | ![](assets/mode-b/mojin-sparse.png) | ![](assets/mode-b/mojin-light.png) | ![](assets/mode-b/mojin-balanced.png) | ![](assets/mode-b/mojin-medium.png) | ![](assets/mode-b/mojin-dense.png) | ![](assets/mode-b/mojin-ultra.png) |
 | Sparse | Light | Balanced | Medium | Dense | Ultra |
 
-**素启 (Corporate Professional)**
+**Suqi — Corporate Professional**
 
 | | | | | | |
 |---|---|---|---|---|---|
 | ![](assets/mode-b/suqi-sparse.png) | ![](assets/mode-b/suqi-light.png) | ![](assets/mode-b/suqi-balanced.png) | ![](assets/mode-b/suqi-medium.png) | ![](assets/mode-b/suqi-dense.png) | ![](assets/mode-b/suqi-ultra.png) |
 | Sparse | Light | Balanced | Medium | Dense | Ultra |
 
-**暖荷 (Warm Personal)**
+**Nuanhe — Warm Personal**
 
 | | | | | | |
 |---|---|---|---|---|---|
 | ![](assets/mode-b/nuanhe-sparse.png) | ![](assets/mode-b/nuanhe-light.png) | ![](assets/mode-b/nuanhe-balanced.png) | ![](assets/mode-b/nuanhe-medium.png) | ![](assets/mode-b/nuanhe-dense.png) | ![](assets/mode-b/nuanhe-ultra.png) |
 | Sparse | Light | Balanced | Medium | Dense | Ultra |
 
-**朱砂 (Bold Cinnabar)**
+**Zhusa — Bold Cinnabar**
 
 | | | | | | |
 |---|---|---|---|---|---|
 | ![](assets/mode-b/zhusa-sparse.png) | ![](assets/mode-b/zhusa-light.png) | ![](assets/mode-b/zhusa-balanced.png) | ![](assets/mode-b/zhusa-medium.png) | ![](assets/mode-b/zhusa-dense.png) | ![](assets/mode-b/zhusa-ultra.png) |
 | Sparse | Light | Balanced | Medium | Dense | Ultra |
 
-**青瓷 (Celadon Elegance)**
+**Qingci — Celadon Elegance**
 
 | | | | | | |
 |---|---|---|---|---|---|
@@ -187,7 +187,7 @@ AI-generated concept art embedded directly into pixel-perfect HTML cards. 10 emb
 | | |
 |---|---|
 | ![dark](assets/mode-c/embed-showcase-dark.png) | ![light](assets/mode-c/embed-showcase-light.png) |
-| **墨金 Dark Theme** | **素启 Light Theme** |
+| **Mojin Dark Theme** | **Suqi Light Theme** |
 
 ![original](assets/mode-c/embed-showcase-original.png)
 
@@ -203,11 +203,11 @@ Every client gets their own visual identity — covering both AI generation and 
 
 | Brand | Look | Best For |
 |-------|------|----------|
-| **墨金** | Dark + gold/teal, cyber-academic | Community knowledge, deep analysis |
-| **素启** | Corporate light, green accents | Client reports, proposals |
-| **暖荷** | Warm paper texture, personal | Personal XHS, moments |
-| **朱砂** | Dark + cinnabar red, dramatic | Bold statements, impact content |
-| **青瓷** | Light celadon, elegant green | Lifestyle, aesthetic sharing |
+| **Mojin** (墨金) | Dark + gold/teal, cyber-academic | Community knowledge, deep analysis |
+| **Suqi** (素启) | Corporate light, green accents | Client reports, proposals |
+| **Nuanhe** (暖荷) | Warm paper texture, personal | Personal social, moments |
+| **Zhusa** (朱砂) | Dark + cinnabar red, dramatic | Bold statements, impact content |
+| **Qingci** (青瓷) | Light celadon, elegant green | Lifestyle, aesthetic sharing |
 
 ### Create Your Own Brand
 
@@ -303,80 +303,80 @@ asyre-social/
 
 Content is king. With the right content + brand system, you can create professional visuals for any scenario:
 
-### Personal Brand & XHS (小红书)
+### Personal Brand & XHS
 
 | # | Scenario | Mode | Description |
 |---|----------|------|-------------|
-| 1 | 知识分享卡片 | B | Turn your insights into multi-page card series with data cards and highlights |
-| 2 | 个人品牌封面 | A | AI-generated branded cover for your XHS profile |
-| 3 | 干货长图 | B | Single long-scroll knowledge card with typography and charts |
-| 4 | 避坑指南 | A+B | Bold style cover + detailed text breakdown |
-| 5 | 读书笔记 | B | Study-notes style with highlights and annotations |
-| 6 | 个人故事系列 | C | AI atmosphere cover + warm text content pages |
+| 1 | Knowledge Cards | B | Turn insights into multi-page card series with data cards and highlights |
+| 2 | Profile Cover | A | AI-generated branded cover for your social profile |
+| 3 | Long-form Card | B | Single long-scroll knowledge card with typography and charts |
+| 4 | Pitfall Guide | A+B | Bold style cover + detailed text breakdown |
+| 5 | Reading Notes | B | Study-notes style with highlights and annotations |
+| 6 | Personal Story Series | C | AI atmosphere cover + warm text content pages |
 
 ### Business & Client Deliverables
 
 | # | Scenario | Mode | Description |
 |---|----------|------|-------------|
-| 7 | 客户提案封面 | A | Professional infographic in corporate brand |
-| 8 | 商业计划摘要 | B | Dense card with data cards, comparison tables, action list |
-| 9 | 竞品分析 | A | Binary-comparison or SWOT infographic layout |
-| 10 | 季度报告卡片 | B | Dashboard-style metrics with branded CSS |
-| 11 | 产品发布海报 | A | Screen-print or bold style poster |
-| 12 | 投资者简报 | C | AI concept cover + data-rich content pages |
+| 7 | Client Proposal Cover | A | Professional infographic in corporate brand |
+| 8 | Business Plan Summary | B | Dense card with data cards, comparison tables, action list |
+| 9 | Competitive Analysis | A | Binary-comparison or SWOT infographic layout |
+| 10 | Quarterly Report Card | B | Dashboard-style metrics with branded CSS |
+| 11 | Product Launch Poster | A | Screen-print or bold style poster |
+| 12 | Investor Brief | C | AI concept cover + data-rich content pages |
 
 ### Education & Tutorials
 
 | # | Scenario | Mode | Description |
 |---|----------|------|-------------|
-| 13 | 教程步骤图 | A | Chalkboard or flow-layout infographic |
-| 14 | 知识地图 | A | Hub-spoke or tree-branching layout |
-| 15 | 课程笔记卡 | B | Study-notes density with golden sentences |
-| 16 | 考试复习卡 | B | Ultra-dense card with all key points |
-| 17 | 概念解释图 | A | Iceberg or bridge layout for concept visualization |
-| 18 | 学习路线图 | A | Winding-roadmap or linear-progression layout |
+| 13 | Tutorial Steps | A | Chalkboard or flow-layout infographic |
+| 14 | Knowledge Map | A | Hub-spoke or tree-branching layout |
+| 15 | Course Notes | B | Study-notes density with golden sentences |
+| 16 | Exam Review Card | B | Ultra-dense card with all key points |
+| 17 | Concept Explainer | A | Iceberg or bridge layout for concept visualization |
+| 18 | Learning Roadmap | A | Winding-roadmap or linear-progression layout |
 
 ### Marketing & Social Media
 
 | # | Scenario | Mode | Description |
 |---|----------|------|-------------|
-| 19 | 产品对比图 | A | Comparison-table or binary-comparison |
-| 20 | 活动宣传海报 | A | Bold or cyberpunk-neon style poster |
-| 21 | 数据驱动故事 | C | AI data visualization + text analysis |
-| 22 | 用户证言卡 | B | Quote card with avatar circle embed |
-| 23 | 品牌价值观 | B | Sparse centered quote in brand style |
-| 24 | 社媒内容日历 | A | Periodic-table layout for content planning |
+| 19 | Product Comparison | A | Comparison-table or binary-comparison |
+| 20 | Event Promo Poster | A | Bold or cyberpunk-neon style poster |
+| 21 | Data-driven Story | C | AI data visualization + text analysis |
+| 22 | Testimonial Card | B | Quote card with avatar circle embed |
+| 23 | Brand Values | B | Sparse centered quote in brand style |
+| 24 | Content Calendar | A | Periodic-table layout for content planning |
 
 ### Deep Content & Thought Leadership
 
 | # | Scenario | Mode | Description |
 |---|----------|------|-------------|
-| 25 | 深度分析文章 | B | Multi-page dense cards with full article |
-| 26 | 行业趋势报告 | C | AI concept art + data tables + action list |
-| 27 | 框架/模型图 | A | Hierarchical-layers or structural-breakdown |
-| 28 | 观点输出卡 | B | Medium density with highlight quote |
-| 29 | 圆桌讨论摘要 | B | Multi-card with different speaker sections |
-| 30 | 年度复盘 | C | AI cover + timeline + metrics + reflection |
+| 25 | Deep Analysis Article | B | Multi-page dense cards with full article |
+| 26 | Industry Trend Report | C | AI concept art + data tables + action list |
+| 27 | Framework Diagram | A | Hierarchical-layers or structural-breakdown |
+| 28 | Opinion Card | B | Medium density with highlight quote |
+| 29 | Roundtable Summary | B | Multi-card with different speaker sections |
+| 30 | Annual Review | C | AI cover + timeline + metrics + reflection |
 
 ### Workflow Example
 
 ```
 1. /asyre-social --brand=mojin
-   → 加载墨金品牌（暗金赛博风）
+   → Load mojin brand (dark gold cyber style)
 
-2. 粘贴你的文章或数据
-   → AI 分析内容：2000字深度文章 → 推荐 Mode B
+2. Paste your article or data
+   → AI analyzes: 2000-char deep article → recommends Mode B
 
-3. 确认方案
-   → 策略 B (信息密集) / 密度 Dense / 品牌 墨金
+3. Confirm plan
+   → Strategy B (info-dense) / Density Dense / Brand mojin
 
-4. 生成 4 页卡片
-   → 01.png 标题页（sparse）
-   → 02.png 数据页（balanced + 数据卡片）
-   → 03.png 对比页（medium + 对比表）
-   → 04.png 行动页（dense + 行动清单）
+4. Generate 4-page card series
+   → 01.png title page (sparse)
+   → 02.png data page (balanced + data cards)
+   → 03.png comparison page (medium + comparison table)
+   → 04.png action page (dense + action list)
 
-5. 发布到小红书
+5. Publish to social media
 ```
 
 ## License
